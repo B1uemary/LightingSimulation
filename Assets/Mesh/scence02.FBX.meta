@@ -1,0 +1,3652 @@
+fileFormatVersion: 2
+guid: 2f18b87c83ee6af42bf4d8b076b8b22d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box258
+    100002: Box266
+    100004: Box267
+    100006: Camera001
+    100008: Camera001.Target
+    100010: Group006
+    100012: Group114475
+    100014: Line1428
+    100016: Line1431
+    100018: Line1463
+    100020: Line2029219538
+    100022: //RootNode
+    100024: screen001
+    100026: screen002
+    100028: screen003
+    100030: screen004
+    100032: screen005
+    100034: screen006
+    100036: screen007
+    100038: screen008
+    100040: screen009
+    100042: screen010
+    100044: screen011
+    100046: screen012
+    100048: screen013
+    100050: screen014
+    100052: screen015
+    100054: screen016
+    100056: screen017
+    100058: screen018
+    100060: screen019
+    100062: screen020
+    100064: screen021
+    100066: screen022
+    100068: screen023
+    100070: screen024
+    100072: screen025
+    100074: screen026
+    100076: screen027
+    100078: screen028
+    100080: screen029
+    100082: screen030
+    100084: screen031
+    100086: screen032
+    100088: screen033
+    100090: screen034
+    100092: screen035
+    100094: screen036
+    100096: screen037
+    100098: screen038
+    100100: screen039
+    100102: screen040
+    100104: screen041
+    100106: screen042
+    100108: screen043
+    100110: screen044
+    100112: screen045
+    100114: screen046
+    100116: screen047
+    100118: screen048
+    100120: screen049
+    100122: screen050
+    100124: screen051
+    100126: screen052
+    100128: screen053
+    100130: screen054
+    100132: screen055
+    100134: screen056
+    100136: screen057
+    100138: screen058
+    100140: screen059
+    100142: screen060
+    100144: screen061
+    100146: screen062
+    100148: screen063
+    100150: screen064
+    100152: screen065
+    100154: screen066
+    100156: screen067
+    100158: screen068
+    100160: screen069
+    100162: screen070
+    100164: screen071
+    100166: screen072
+    100168: screen073
+    100170: screen074
+    100172: screen075
+    100174: screen076
+    100176: screen077
+    100178: screen078
+    100180: screen079
+    100182: screen080
+    100184: screen081
+    100186: screen082
+    100188: screen083
+    100190: screen084
+    100192: screen085
+    100194: screen086
+    100196: screen087
+    100198: screen088
+    100200: screen089
+    100202: screen090
+    100204: screen091
+    100206: screen092
+    100208: screen093
+    100210: screen094
+    100212: screen095
+    100214: screen096
+    100216: screen097
+    100218: screen098
+    100220: screen099
+    100222: screen100
+    100224: screen101
+    100226: screen102
+    100228: screen103
+    100230: screen104
+    100232: screen105
+    100234: screen106
+    100236: screen107
+    100238: screen108
+    100240: screen109
+    100242: screen110
+    100244: screen111
+    100246: screen112
+    100248: screen113
+    100250: screen114
+    100252: screen115
+    100254: screen116
+    100256: screen117
+    100258: screen118
+    100260: screen119
+    100262: screen120
+    100264: screen121
+    100266: screen122
+    100268: screen123
+    100270: screen124
+    100272: screen125
+    100274: screen126
+    100276: screen127
+    100278: screen128
+    100280: screen129
+    100282: screen130
+    100284: screen131
+    100286: screen132
+    100288: screen133
+    100290: screen134
+    100292: screen135
+    100294: screen136
+    100296: screen137
+    100298: screen138
+    100300: screen139
+    100302: screen140
+    100304: screen141
+    100306: screen142
+    100308: screen143
+    100310: screen144
+    100312: screen145
+    100314: screen146
+    100316: screen147
+    100318: screen148
+    100320: screen149
+    100322: screen150
+    100324: screen151
+    100326: screen152
+    100328: screen153
+    100330: screen154
+    100332: screen155
+    100334: screen156
+    100336: screen157
+    100338: screen158
+    100340: screen159
+    100342: screen160
+    100344: screen161
+    100346: screen162
+    100348: screen163
+    100350: screen164
+    100352: screen165
+    100354: screen166
+    100356: screen167
+    100358: screen168
+    100360: screen169
+    100362: screen170
+    100364: screen171
+    100366: screen172
+    100368: screen173
+    100370: screen174
+    100372: screen175
+    100374: screen176
+    100376: screen177
+    100378: screen178
+    100380: screen179
+    100382: screen180
+    100384: screen181
+    100386: screen182
+    100388: screen183
+    100390: screen184
+    100392: screen185
+    100394: screen186
+    100396: screen187
+    100398: screen188
+    100400: screen189
+    100402: screen190
+    100404: screen191
+    100406: screen192
+    100408: screen193
+    100410: screen194
+    100412: screen195
+    100414: screen196
+    100416: screen197
+    100418: screen198
+    100420: screen199
+    100422: screen200
+    100424: screen201
+    100426: screen202
+    100428: screen203
+    100430: screen204
+    100432: screen205
+    100434: screen206
+    100436: screen207
+    100438: screen208
+    100440: screen209
+    100442: screen210
+    100444: screen211
+    100446: screen212
+    100448: screen213
+    100450: screen214
+    100452: screen215
+    100454: screen216
+    100456: screen217
+    100458: screen218
+    100460: screen219
+    100462: screen220
+    100464: screen221
+    100466: screen222
+    100468: screen223
+    100470: screen224
+    100472: screen225
+    100474: screen226
+    100476: screen227
+    100478: screen228
+    100480: screen229
+    100482: screen230
+    100484: screen232
+    100486: screen233
+    100488: screen235
+    100490: screen237
+    100492: screen238
+    100494: screen239
+    100496: screen240
+    100498: screen241
+    100500: screen242
+    100502: screen243
+    100504: screen244
+    100506: screen245
+    100508: screen246
+    100510: screen247
+    100512: screen248
+    100514: screen249
+    100516: screen250
+    100518: screen251
+    100520: screen252
+    100522: screen253
+    100524: screen254
+    100526: screen255
+    100528: screen256
+    100530: screen257
+    100532: screen258
+    100534: screen259
+    100536: screen260
+    100538: screen261
+    100540: screen262
+    100542: screen263
+    100544: screen264
+    100546: screen265
+    100548: screen266
+    100550: screen267
+    100552: screen268
+    100554: screen269
+    100556: screen270
+    100558: screen271
+    100560: screen272
+    100562: screen273
+    100564: screen274
+    100566: screen275
+    100568: screen276
+    100570: screen277
+    100572: screen278
+    100574: screen279
+    100576: screen280
+    100578: screen282
+    100580: screen283
+    100582: screen284
+    100584: screen285
+    100586: screen286
+    100588: screen287
+    100590: screen288
+    100592: screen289
+    100594: screen290
+    100596: screen291
+    100598: screen292
+    100600: screen293
+    100602: screen294
+    100604: screen295
+    100606: screen296
+    100608: screen297
+    100610: screen298
+    100612: screen299
+    100614: screen300
+    100616: screen301
+    100618: screen302
+    100620: screen303
+    100622: screen304
+    100624: screen305
+    100626: screen306
+    100628: screen307
+    100630: screen308
+    100632: screen309
+    100634: screen310
+    100636: screen311
+    100638: screen312
+    100640: screen313
+    100642: screen314
+    100644: screen315
+    100646: screen316
+    100648: "\u3000\uE813\uE811"
+    100650: "\u5927\u5E4C\u5B5004"
+    100652: "\uE814\uE812"
+    100654: Box268
+    100656: Object001
+    100658: Object002
+    100660: Object003
+    100662: Object004
+    100664: Object005
+    100666: Object006
+    100668: Object007
+    100670: Object008
+    100672: Object009
+    100674: Plane012
+    100676: screen003_001
+    100678: screen003_040
+    100680: screen003_049
+    100682: screen003_061
+    100684: screen003_072
+    100686: screen003_095
+    100688: screen003_106
+    100690: screen003_119
+    100692: screen003_120
+    100694: screen003_122
+    100696: screen003_145
+    100698: Box266_001
+    100700: Box267_001
+    100702: Box269
+    100704: Line1428_001
+    100706: Line1431_001
+    100708: Line2029219539
+    100710: Line2029219540
+    100712: Line2029219541
+    100714: Line2029219542
+    100716: Object010
+    100718: Object011
+    100720: Object012
+    100722: screen004_001
+    100724: screen074_001
+    100726: screen076_001
+    100728: Line1428_002
+    100730: Line1428_003
+    100732: Line1428_004
+    100734: Line1428_005
+    100736: screen003_146
+    100738: Line1428_006
+    100740: Line1428_007
+    100742: screen112_002
+    100744: screen112_004
+    100746: screen112_016
+    100748: screen224_001
+    100750: screen232_001
+    100752: screen235_002
+    100754: screen269_001
+    100756: screen271_001
+    100758: screen317
+    100760: screen116_001
+    100762: screen298_001
+    100764: screen286_001
+    100766: Box270
+    100768: screen158_001
+    400000: Box258
+    400002: Box266
+    400004: Box267
+    400006: Camera001
+    400008: Camera001.Target
+    400010: Group006
+    400012: Group114475
+    400014: Line1428
+    400016: Line1431
+    400018: Line1463
+    400020: Line2029219538
+    400022: //RootNode
+    400024: screen001
+    400026: screen002
+    400028: screen003
+    400030: screen004
+    400032: screen005
+    400034: screen006
+    400036: screen007
+    400038: screen008
+    400040: screen009
+    400042: screen010
+    400044: screen011
+    400046: screen012
+    400048: screen013
+    400050: screen014
+    400052: screen015
+    400054: screen016
+    400056: screen017
+    400058: screen018
+    400060: screen019
+    400062: screen020
+    400064: screen021
+    400066: screen022
+    400068: screen023
+    400070: screen024
+    400072: screen025
+    400074: screen026
+    400076: screen027
+    400078: screen028
+    400080: screen029
+    400082: screen030
+    400084: screen031
+    400086: screen032
+    400088: screen033
+    400090: screen034
+    400092: screen035
+    400094: screen036
+    400096: screen037
+    400098: screen038
+    400100: screen039
+    400102: screen040
+    400104: screen041
+    400106: screen042
+    400108: screen043
+    400110: screen044
+    400112: screen045
+    400114: screen046
+    400116: screen047
+    400118: screen048
+    400120: screen049
+    400122: screen050
+    400124: screen051
+    400126: screen052
+    400128: screen053
+    400130: screen054
+    400132: screen055
+    400134: screen056
+    400136: screen057
+    400138: screen058
+    400140: screen059
+    400142: screen060
+    400144: screen061
+    400146: screen062
+    400148: screen063
+    400150: screen064
+    400152: screen065
+    400154: screen066
+    400156: screen067
+    400158: screen068
+    400160: screen069
+    400162: screen070
+    400164: screen071
+    400166: screen072
+    400168: screen073
+    400170: screen074
+    400172: screen075
+    400174: screen076
+    400176: screen077
+    400178: screen078
+    400180: screen079
+    400182: screen080
+    400184: screen081
+    400186: screen082
+    400188: screen083
+    400190: screen084
+    400192: screen085
+    400194: screen086
+    400196: screen087
+    400198: screen088
+    400200: screen089
+    400202: screen090
+    400204: screen091
+    400206: screen092
+    400208: screen093
+    400210: screen094
+    400212: screen095
+    400214: screen096
+    400216: screen097
+    400218: screen098
+    400220: screen099
+    400222: screen100
+    400224: screen101
+    400226: screen102
+    400228: screen103
+    400230: screen104
+    400232: screen105
+    400234: screen106
+    400236: screen107
+    400238: screen108
+    400240: screen109
+    400242: screen110
+    400244: screen111
+    400246: screen112
+    400248: screen113
+    400250: screen114
+    400252: screen115
+    400254: screen116
+    400256: screen117
+    400258: screen118
+    400260: screen119
+    400262: screen120
+    400264: screen121
+    400266: screen122
+    400268: screen123
+    400270: screen124
+    400272: screen125
+    400274: screen126
+    400276: screen127
+    400278: screen128
+    400280: screen129
+    400282: screen130
+    400284: screen131
+    400286: screen132
+    400288: screen133
+    400290: screen134
+    400292: screen135
+    400294: screen136
+    400296: screen137
+    400298: screen138
+    400300: screen139
+    400302: screen140
+    400304: screen141
+    400306: screen142
+    400308: screen143
+    400310: screen144
+    400312: screen145
+    400314: screen146
+    400316: screen147
+    400318: screen148
+    400320: screen149
+    400322: screen150
+    400324: screen151
+    400326: screen152
+    400328: screen153
+    400330: screen154
+    400332: screen155
+    400334: screen156
+    400336: screen157
+    400338: screen158
+    400340: screen159
+    400342: screen160
+    400344: screen161
+    400346: screen162
+    400348: screen163
+    400350: screen164
+    400352: screen165
+    400354: screen166
+    400356: screen167
+    400358: screen168
+    400360: screen169
+    400362: screen170
+    400364: screen171
+    400366: screen172
+    400368: screen173
+    400370: screen174
+    400372: screen175
+    400374: screen176
+    400376: screen177
+    400378: screen178
+    400380: screen179
+    400382: screen180
+    400384: screen181
+    400386: screen182
+    400388: screen183
+    400390: screen184
+    400392: screen185
+    400394: screen186
+    400396: screen187
+    400398: screen188
+    400400: screen189
+    400402: screen190
+    400404: screen191
+    400406: screen192
+    400408: screen193
+    400410: screen194
+    400412: screen195
+    400414: screen196
+    400416: screen197
+    400418: screen198
+    400420: screen199
+    400422: screen200
+    400424: screen201
+    400426: screen202
+    400428: screen203
+    400430: screen204
+    400432: screen205
+    400434: screen206
+    400436: screen207
+    400438: screen208
+    400440: screen209
+    400442: screen210
+    400444: screen211
+    400446: screen212
+    400448: screen213
+    400450: screen214
+    400452: screen215
+    400454: screen216
+    400456: screen217
+    400458: screen218
+    400460: screen219
+    400462: screen220
+    400464: screen221
+    400466: screen222
+    400468: screen223
+    400470: screen224
+    400472: screen225
+    400474: screen226
+    400476: screen227
+    400478: screen228
+    400480: screen229
+    400482: screen230
+    400484: screen232
+    400486: screen233
+    400488: screen235
+    400490: screen237
+    400492: screen238
+    400494: screen239
+    400496: screen240
+    400498: screen241
+    400500: screen242
+    400502: screen243
+    400504: screen244
+    400506: screen245
+    400508: screen246
+    400510: screen247
+    400512: screen248
+    400514: screen249
+    400516: screen250
+    400518: screen251
+    400520: screen252
+    400522: screen253
+    400524: screen254
+    400526: screen255
+    400528: screen256
+    400530: screen257
+    400532: screen258
+    400534: screen259
+    400536: screen260
+    400538: screen261
+    400540: screen262
+    400542: screen263
+    400544: screen264
+    400546: screen265
+    400548: screen266
+    400550: screen267
+    400552: screen268
+    400554: screen269
+    400556: screen270
+    400558: screen271
+    400560: screen272
+    400562: screen273
+    400564: screen274
+    400566: screen275
+    400568: screen276
+    400570: screen277
+    400572: screen278
+    400574: screen279
+    400576: screen280
+    400578: screen282
+    400580: screen283
+    400582: screen284
+    400584: screen285
+    400586: screen286
+    400588: screen287
+    400590: screen288
+    400592: screen289
+    400594: screen290
+    400596: screen291
+    400598: screen292
+    400600: screen293
+    400602: screen294
+    400604: screen295
+    400606: screen296
+    400608: screen297
+    400610: screen298
+    400612: screen299
+    400614: screen300
+    400616: screen301
+    400618: screen302
+    400620: screen303
+    400622: screen304
+    400624: screen305
+    400626: screen306
+    400628: screen307
+    400630: screen308
+    400632: screen309
+    400634: screen310
+    400636: screen311
+    400638: screen312
+    400640: screen313
+    400642: screen314
+    400644: screen315
+    400646: screen316
+    400648: "\u3000\uE813\uE811"
+    400650: "\u5927\u5E4C\u5B5004"
+    400652: "\uE814\uE812"
+    400654: Box268
+    400656: Object001
+    400658: Object002
+    400660: Object003
+    400662: Object004
+    400664: Object005
+    400666: Object006
+    400668: Object007
+    400670: Object008
+    400672: Object009
+    400674: Plane012
+    400676: screen003_001
+    400678: screen003_040
+    400680: screen003_049
+    400682: screen003_061
+    400684: screen003_072
+    400686: screen003_095
+    400688: screen003_106
+    400690: screen003_119
+    400692: screen003_120
+    400694: screen003_122
+    400696: screen003_145
+    400698: Box266_001
+    400700: Box267_001
+    400702: Box269
+    400704: Line1428_001
+    400706: Line1431_001
+    400708: Line2029219539
+    400710: Line2029219540
+    400712: Line2029219541
+    400714: Line2029219542
+    400716: Object010
+    400718: Object011
+    400720: Object012
+    400722: screen004_001
+    400724: screen074_001
+    400726: screen076_001
+    400728: Line1428_002
+    400730: Line1428_003
+    400732: Line1428_004
+    400734: Line1428_005
+    400736: screen003_146
+    400738: Line1428_006
+    400740: Line1428_007
+    400742: screen112_002
+    400744: screen112_004
+    400746: screen112_016
+    400748: screen224_001
+    400750: screen232_001
+    400752: screen235_002
+    400754: screen269_001
+    400756: screen271_001
+    400758: screen317
+    400760: screen116_001
+    400762: screen298_001
+    400764: screen286_001
+    400766: Box270
+    400768: screen158_001
+    2100000: sc02_material151
+    2100002: sc02_material49
+    2100004: sc02_material146
+    2100006: sc02_material52
+    2100008: cgmodel.com_abl2011_0548
+    2100010: cgmodel.com_abl2011_0547
+    2100012: sc02_material35
+    2100014: cgmodel.com_abl2011_0549
+    2100016: cgmodel.com_abl2011_0550
+    2100018: cgmodel.com_abl2011_0270
+    2100020: cgmodel.com_abl2011_0271
+    2100022: cgmodel.com_abl2011_0272
+    2100024: cgmodel.com_abl2011_0273
+    2100026: cgmodel.com_abl2011_0268
+    2100028: cgmodel.com_abl2011_0269
+    2100030: sc02_material154
+    2100032: sc02_material144
+    2100034: sc02_material145
+    2100036: sc02_material150
+    2100038: sc02_material149
+    2100040: sc02_material141
+    2100042: sc02_material142
+    2100044: sc02_material140
+    2100046: sc02_material157
+    2100048: sc02_material143
+    2100050: sc02_material58
+    2100052: sc02_material155
+    2100054: sc02_material148
+    2100056: sc02_material159
+    2100058: sc02_material165
+    2100060: sc02_material158
+    2100062: sc02_material156
+    2100064: sc02_material160
+    2100066: sc02_material198
+    2100068: sc02_material62
+    2100070: sc02_material126
+    2100072: sc02_material127
+    2100074: No Name
+    2100076: sc02_material195
+    2100078: sc02_material197
+    2100080: 19 - Default
+    2100082: 20 - Default
+    2100084: 1 - Default
+    2100086: 2
+    2100088: 'Material #181'
+    2100090: 'Material #37'
+    2100092: sc02_material63
+    2100094: sc02_material64
+    2100096: sc02_material65
+    2100098: sc02_material66
+    2100100: sc02_material67
+    2100102: 01 - Default
+    2100104: sc02_material69
+    2100106: sc02_material71
+    2100108: sc02_material73
+    2100110: sc02_material70
+    2100112: sc02_material72
+    2100114: sc02_material76
+    2100116: 10 - Default
+    2100118: 'Material #44'
+    2100120: 9 - Default
+    2100122: youqiannan01_shenti
+    2100124: youqiannan01_tou
+    2100126: sc02_material86
+    2100128: sc02_material87
+    2100130: Material__1191
+    2100132: Material__1123
+    2100134: sc02_material139
+    2100136: sc02_material138
+    2100138: sc02_material137
+    2100140: sc02_material136
+    2100142: sc02_material135
+    2100144: sc02_material91
+    2100146: sc02_material98
+    2100148: sc02_material102
+    2100150: 04 - Default
+    2100152: sc02_material110
+    2100154: sc02_material101
+    2100156: sc02_material108
+    2100158: sc02_material99
+    2100160: sc02_material100
+    2100162: sc02_material109
+    2100164: sc02_material107
+    2100166: sc02_material111
+    2100168: sc02_material106
+    2100170: sc02_material92
+    2100172: 11 - Defaultrrrr
+    2100174: sc02_material103
+    2100176: Standard_21
+    2100178: Standard_22
+    2100180: 'Material #113'
+    2100182: Standard_16
+    2100184: Standard_20
+    2100186: Standard_10SSSS
+    2100188: sc02_material184
+    2100190: 'Material #2097628304'
+    2100192: 1
+    2100194: f
+    2100196: 01 - Defaulthjj
+    2100198: sc02_material192
+    2100200: 'Material #211915'
+    2100202: 'Material #2244'
+    2100204: 'Material #1802'
+    2100206: Standard_164532
+    2100208: Standard_19
+    2100210: 'Material #2143312809'
+    2100212: 'Material #4'
+    2100214: 'Material #3'
+    2100216: 'Material #1'
+    2100218: 'Material #2'
+    2100220: 'Material #26'
+    2100222: 'Material #27'
+    2100224: sc02_material182
+    2100226: 'Material #21'
+    2100228: 'Material #5'
+    2100230: sc02_material180
+    2100232: 2011624155452661
+    2100234: Lamp glass
+    2100236: lamp body2
+    2100238: MetalCopperObject
+    2100240: sc02_material179
+    2100242: "_OBJ\u6587\u4EF6Material__245"
+    2100244: "_OBJ\u6587\u4EF6Material__249"
+    2100246: jiutanbased
+    2100248: 23 - Default1
+    2100250: sc02_material181
+    2100252: sc02_material188
+    2100254: cgmodel.com_abl2011_0096
+    2100256: cgmodel.com_abl2011_0097
+    2100258: cgmodel.com_abl2011_0098
+    2100260: cgmodel.com_abl2011_0099
+    2100262: cgmodel.com_abl2011_0100
+    2100264: cgmodel.com_abl2011_0101
+    2100266: cgmodel.com_abl2011_0092
+    2100268: cgmodel.com_abl2011_0093
+    2100270: sc02_material196
+    2100272: sc02_material81
+    2100274: sc02_material83
+    2100276: sc02_material82
+    2100278: sc02_material80
+    2100280: sc02_material131
+    2100282: cgmodel.com_abl2011_0279
+    2100284: sc02_material38
+    2100286: sc02_material201
+    2100288: cgmodel.com_abl2011_0331
+    2100290: cgmodel.com_abl2011_0332
+    2100292: sc02_material202
+    2100294: sc02_material48
+    2100296: sc02_material37
+    2100298: sc02_material44
+    2100300: sc02_material203
+    2100302: sc02_material204
+    2100304: sc02_material200
+    2100306: sc02_material45
+    2100308: cgmodel.com_abl2011_0252
+    2100310: cgmodel.com_abl2011_0253
+    2100312: cgmodel.com_abl2011_0242
+    2100314: cgmodel.com_abl2011_0243
+    2100316: cgmodel.com_abl2011_0244
+    2100318: cgmodel.com_abl2011_0245
+    2100320: cgmodel.com_abl2011_0278
+    2100322: cgmodel.com_abl2011_0260
+    2100324: cgmodel.com_abl2011_0261
+    2100326: cgmodel.com_abl2011_0246
+    2100328: cgmodel.com_abl2011_0247
+    2100330: sc02_material221
+    2100332: sc02_material222
+    2100334: sc02_material42
+    2100336: cgmodel.com_abl2011_0105
+    2100338: cgmodel.com_abl2011_0104
+    2100340: cgmodel.com_abl2011_0237
+    2100342: cgmodel.com_abl2011_0236
+    2100344: cgmodel.com_abl2011_0240
+    2100346: cgmodel.com_abl2011_0241
+    2100348: cgmodel.com_abl2011_0238
+    2100350: cgmodel.com_abl2011_0239
+    2100352: sc02_material39
+    2100354: cgmodel.com_abl2011_0021
+    2100356: cgmodel.com_abl2011_0020
+    2100358: cgmodel.com_abl2011_0106
+    2100360: cgmodel.com_abl2011_0107
+    2100362: sc02_material41
+    2100364: sc02_material40
+    2100366: sc02_material153
+    2100368: sc02_material54
+    2100370: sc02_material147
+    2100372: sc02_material152
+    2100374: sc02_material55
+    2100376: PURPLE_2
+    2100378: BLACK_PLSTC
+    2100380: sc02_material57
+    2100382: sc02_material94
+    2100384: sc02_material88
+    2100386: sc02_material133
+    2100388: sc02_material134
+    2100390: cgmodel.com_abl2011_0123
+    2100392: cgmodel.com_abl2011_0124
+    2100394: cgmodel.com_abl2011_0119
+    2100396: cgmodel.com_abl2011_0120
+    2100398: cgmodel.com_abl2011_0116
+    2100400: cgmodel.com_abl2011_0117
+    2100402: cgmodel.com_abl2011_0349
+    2100404: cgmodel.com_abl2011_0014
+    2100406: sc02_material36
+    2100408: sc02_material161
+    2100410: sc02_material163
+    2100412: sc02_material123
+    2100414: sc02_material124
+    2100416: sc02_material60
+    2100418: 'Material #78'
+    2100420: 'Material #76'
+    2100422: 'Material #80'
+    2100424: 'Material #77'
+    2100426: 'Material #79'
+    2100428: 'Material #75'
+    2100430: sc02_material117
+    2100432: sc02_material122
+    2100434: sc02_material93
+    2100436: sc02_material121
+    2100438: sc02_material77
+    2100440: sc02_material90
+    2100442: sc02_material75
+    2100444: sc02_material79
+    2100446: sc02_material89
+    2100448: sc02_material132
+    2100450: sc02_material61
+    2100452: sc02_material59
+    2100454: sc02_material128
+    2100456: sc02_material125
+    2100458: sc02_material130
+    2100460: sc02_material118
+    2100462: 'Material #2143313485'
+    2100464: sc02_material74
+    2100466: cgmodel.com_abl2011_0090
+    2100468: cgmodel.com_abl2011_0091
+    2100470: cgmodel.com_abl2011_0094
+    2100472: cgmodel.com_abl2011_0095
+    2100474: sc02_material46
+    2100476: cgmodel.com_abl2011_0555
+    2100478: cgmodel.com_abl2011_0134
+    2100480: cgmodel.com_abl2011_0177
+    2100482: cgmodel.com_abl2011_0178
+    2100484: sc02_material15
+    2100486: sc02_material47
+    2100488: cgmodel.com_abl2011_0181
+    2100490: cgmodel.com_abl2011_0182
+    2100492: cgmodel.com_abl2011_0183
+    2100494: cgmodel.com_abl2011_0184
+    2100496: cgmodel.com_abl2011_0180
+    2100498: cgmodel.com_abl2011_0179
+    2100500: sc02_material43
+    2100502: sc02_material206
+    2100504: sc02_material207
+    2100506: sc02_material205
+    2100508: sc02_material211
+    2100510: sc02_material210
+    2100512: sc02_material212
+    2100514: sc02_material209
+    2100516: sc02_material208
+    2100518: sc02_material213
+    2100520: sc02_material217
+    2100522: sc02_material216
+    2100524: sc02_material214
+    2100526: sc02_material215
+    2100528: sc02_material218
+    2100530: sc02_material224
+    2100532: sc02_material223
+    2100534: sc02_material225
+    2100536: sc02_material228
+    2100538: sc02_material227
+    2100540: sc02_material230
+    2100542: sc02_material231
+    2100544: sc02_material232
+    2100546: sc02_material234
+    2100548: sc02_material235
+    2100550: sc02_material236
+    2300000: Box258
+    2300002: Box266
+    2300004: Box267
+    2300006: Line1428
+    2300008: Line1431
+    2300010: Line1463
+    2300012: Line2029219538
+    2300014: screen001
+    2300016: screen002
+    2300018: screen003
+    2300020: screen004
+    2300022: screen005
+    2300024: screen006
+    2300026: screen007
+    2300028: screen008
+    2300030: screen009
+    2300032: screen010
+    2300034: screen011
+    2300036: screen012
+    2300038: screen013
+    2300040: screen014
+    2300042: screen015
+    2300044: screen016
+    2300046: screen017
+    2300048: screen018
+    2300050: screen019
+    2300052: screen020
+    2300054: screen021
+    2300056: screen022
+    2300058: screen023
+    2300060: screen024
+    2300062: screen025
+    2300064: screen026
+    2300066: screen027
+    2300068: screen028
+    2300070: screen029
+    2300072: screen030
+    2300074: screen031
+    2300076: screen032
+    2300078: screen033
+    2300080: screen034
+    2300082: screen035
+    2300084: screen036
+    2300086: screen037
+    2300088: screen038
+    2300090: screen039
+    2300092: screen040
+    2300094: screen041
+    2300096: screen042
+    2300098: screen043
+    2300100: screen044
+    2300102: screen045
+    2300104: screen046
+    2300106: screen047
+    2300108: screen048
+    2300110: screen049
+    2300112: screen050
+    2300114: screen051
+    2300116: screen052
+    2300118: screen053
+    2300120: screen054
+    2300122: screen055
+    2300124: screen056
+    2300126: screen057
+    2300128: screen058
+    2300130: screen059
+    2300132: screen060
+    2300134: screen061
+    2300136: screen062
+    2300138: screen063
+    2300140: screen064
+    2300142: screen065
+    2300144: screen066
+    2300146: screen067
+    2300148: screen068
+    2300150: screen069
+    2300152: screen070
+    2300154: screen071
+    2300156: screen072
+    2300158: screen073
+    2300160: screen074
+    2300162: screen075
+    2300164: screen076
+    2300166: screen077
+    2300168: screen078
+    2300170: screen079
+    2300172: screen080
+    2300174: screen081
+    2300176: screen082
+    2300178: screen083
+    2300180: screen084
+    2300182: screen085
+    2300184: screen086
+    2300186: screen087
+    2300188: screen088
+    2300190: screen089
+    2300192: screen090
+    2300194: screen091
+    2300196: screen092
+    2300198: screen093
+    2300200: screen094
+    2300202: screen095
+    2300204: screen096
+    2300206: screen097
+    2300208: screen098
+    2300210: screen099
+    2300212: screen100
+    2300214: screen101
+    2300216: screen102
+    2300218: screen103
+    2300220: screen104
+    2300222: screen105
+    2300224: screen106
+    2300226: screen107
+    2300228: screen108
+    2300230: screen109
+    2300232: screen110
+    2300234: screen111
+    2300236: screen112
+    2300238: screen113
+    2300240: screen114
+    2300242: screen115
+    2300244: screen116
+    2300246: screen117
+    2300248: screen118
+    2300250: screen119
+    2300252: screen120
+    2300254: screen121
+    2300256: screen122
+    2300258: screen123
+    2300260: screen124
+    2300262: screen125
+    2300264: screen126
+    2300266: screen127
+    2300268: screen128
+    2300270: screen129
+    2300272: screen130
+    2300274: screen131
+    2300276: screen132
+    2300278: screen133
+    2300280: screen134
+    2300282: screen135
+    2300284: screen136
+    2300286: screen137
+    2300288: screen138
+    2300290: screen139
+    2300292: screen140
+    2300294: screen141
+    2300296: screen142
+    2300298: screen143
+    2300300: screen144
+    2300302: screen145
+    2300304: screen146
+    2300306: screen147
+    2300308: screen148
+    2300310: screen149
+    2300312: screen150
+    2300314: screen151
+    2300316: screen152
+    2300318: screen153
+    2300320: screen154
+    2300322: screen155
+    2300324: screen156
+    2300326: screen157
+    2300328: screen158
+    2300330: screen159
+    2300332: screen160
+    2300334: screen161
+    2300336: screen162
+    2300338: screen163
+    2300340: screen164
+    2300342: screen165
+    2300344: screen166
+    2300346: screen167
+    2300348: screen168
+    2300350: screen169
+    2300352: screen170
+    2300354: screen171
+    2300356: screen172
+    2300358: screen173
+    2300360: screen174
+    2300362: screen175
+    2300364: screen176
+    2300366: screen177
+    2300368: screen178
+    2300370: screen179
+    2300372: screen180
+    2300374: screen181
+    2300376: screen182
+    2300378: screen183
+    2300380: screen184
+    2300382: screen185
+    2300384: screen186
+    2300386: screen187
+    2300388: screen188
+    2300390: screen189
+    2300392: screen190
+    2300394: screen191
+    2300396: screen192
+    2300398: screen193
+    2300400: screen194
+    2300402: screen195
+    2300404: screen196
+    2300406: screen197
+    2300408: screen198
+    2300410: screen199
+    2300412: screen200
+    2300414: screen201
+    2300416: screen202
+    2300418: screen203
+    2300420: screen204
+    2300422: screen205
+    2300424: screen206
+    2300426: screen207
+    2300428: screen208
+    2300430: screen209
+    2300432: screen210
+    2300434: screen211
+    2300436: screen212
+    2300438: screen213
+    2300440: screen214
+    2300442: screen215
+    2300444: screen216
+    2300446: screen217
+    2300448: screen218
+    2300450: screen219
+    2300452: screen220
+    2300454: screen221
+    2300456: screen222
+    2300458: screen223
+    2300460: screen224
+    2300462: screen225
+    2300464: screen226
+    2300466: screen227
+    2300468: screen228
+    2300470: screen229
+    2300472: screen230
+    2300474: screen232
+    2300476: screen233
+    2300478: screen235
+    2300480: screen237
+    2300482: screen238
+    2300484: screen239
+    2300486: screen240
+    2300488: screen241
+    2300490: screen242
+    2300492: screen243
+    2300494: screen244
+    2300496: screen245
+    2300498: screen246
+    2300500: screen247
+    2300502: screen248
+    2300504: screen249
+    2300506: screen250
+    2300508: screen251
+    2300510: screen252
+    2300512: screen253
+    2300514: screen254
+    2300516: screen255
+    2300518: screen256
+    2300520: screen257
+    2300522: screen258
+    2300524: screen259
+    2300526: screen260
+    2300528: screen261
+    2300530: screen262
+    2300532: screen263
+    2300534: screen264
+    2300536: screen265
+    2300538: screen266
+    2300540: screen267
+    2300542: screen268
+    2300544: screen269
+    2300546: screen270
+    2300548: screen271
+    2300550: screen272
+    2300552: screen273
+    2300554: screen274
+    2300556: screen275
+    2300558: screen276
+    2300560: screen277
+    2300562: screen278
+    2300564: screen279
+    2300566: screen280
+    2300568: screen282
+    2300570: screen283
+    2300572: screen284
+    2300574: screen285
+    2300576: screen286
+    2300578: screen287
+    2300580: screen288
+    2300582: screen289
+    2300584: screen290
+    2300586: screen291
+    2300588: screen292
+    2300590: screen293
+    2300592: screen294
+    2300594: screen295
+    2300596: screen296
+    2300598: screen297
+    2300600: screen298
+    2300602: screen299
+    2300604: screen300
+    2300606: screen301
+    2300608: screen302
+    2300610: screen303
+    2300612: screen304
+    2300614: screen305
+    2300616: screen306
+    2300618: screen307
+    2300620: screen308
+    2300622: screen309
+    2300624: screen310
+    2300626: screen311
+    2300628: screen312
+    2300630: screen313
+    2300632: screen315
+    2300634: screen316
+    2300636: Box268
+    2300638: Object001
+    2300640: Object002
+    2300642: Object003
+    2300644: Object004
+    2300646: Object005
+    2300648: Object006
+    2300650: Object007
+    2300652: Object008
+    2300654: Object009
+    2300656: Plane012
+    2300658: screen003_001
+    2300660: screen003_040
+    2300662: screen003_049
+    2300664: screen003_061
+    2300666: screen003_072
+    2300668: screen003_095
+    2300670: screen003_106
+    2300672: screen003_119
+    2300674: screen003_120
+    2300676: screen003_122
+    2300678: screen003_145
+    2300680: Box266_001
+    2300682: Box267_001
+    2300684: Box269
+    2300686: Line1428_001
+    2300688: Line1431_001
+    2300690: Line2029219539
+    2300692: Line2029219540
+    2300694: Line2029219541
+    2300696: Line2029219542
+    2300698: Object010
+    2300700: Object011
+    2300702: Object012
+    2300704: screen004_001
+    2300706: screen074_001
+    2300708: screen076_001
+    2300710: Line1428_002
+    2300712: Line1428_003
+    2300714: Line1428_004
+    2300716: Line1428_005
+    2300718: screen003_146
+    2300720: Line1428_006
+    2300722: Line1428_007
+    2300724: screen112_002
+    2300726: screen112_004
+    2300728: screen112_016
+    2300730: screen224_001
+    2300732: screen232_001
+    2300734: screen235_002
+    2300736: screen269_001
+    2300738: screen271_001
+    2300740: screen317
+    2300742: screen116_001
+    2300744: screen298_001
+    2300746: screen286_001
+    2300748: Box270
+    2300750: screen158_001
+    3300000: Box258
+    3300002: Box266
+    3300004: Box267
+    3300006: Line1428
+    3300008: Line1431
+    3300010: Line1463
+    3300012: Line2029219538
+    3300014: screen001
+    3300016: screen002
+    3300018: screen003
+    3300020: screen004
+    3300022: screen005
+    3300024: screen006
+    3300026: screen007
+    3300028: screen008
+    3300030: screen009
+    3300032: screen010
+    3300034: screen011
+    3300036: screen012
+    3300038: screen013
+    3300040: screen014
+    3300042: screen015
+    3300044: screen016
+    3300046: screen017
+    3300048: screen018
+    3300050: screen019
+    3300052: screen020
+    3300054: screen021
+    3300056: screen022
+    3300058: screen023
+    3300060: screen024
+    3300062: screen025
+    3300064: screen026
+    3300066: screen027
+    3300068: screen028
+    3300070: screen029
+    3300072: screen030
+    3300074: screen031
+    3300076: screen032
+    3300078: screen033
+    3300080: screen034
+    3300082: screen035
+    3300084: screen036
+    3300086: screen037
+    3300088: screen038
+    3300090: screen039
+    3300092: screen040
+    3300094: screen041
+    3300096: screen042
+    3300098: screen043
+    3300100: screen044
+    3300102: screen045
+    3300104: screen046
+    3300106: screen047
+    3300108: screen048
+    3300110: screen049
+    3300112: screen050
+    3300114: screen051
+    3300116: screen052
+    3300118: screen053
+    3300120: screen054
+    3300122: screen055
+    3300124: screen056
+    3300126: screen057
+    3300128: screen058
+    3300130: screen059
+    3300132: screen060
+    3300134: screen061
+    3300136: screen062
+    3300138: screen063
+    3300140: screen064
+    3300142: screen065
+    3300144: screen066
+    3300146: screen067
+    3300148: screen068
+    3300150: screen069
+    3300152: screen070
+    3300154: screen071
+    3300156: screen072
+    3300158: screen073
+    3300160: screen074
+    3300162: screen075
+    3300164: screen076
+    3300166: screen077
+    3300168: screen078
+    3300170: screen079
+    3300172: screen080
+    3300174: screen081
+    3300176: screen082
+    3300178: screen083
+    3300180: screen084
+    3300182: screen085
+    3300184: screen086
+    3300186: screen087
+    3300188: screen088
+    3300190: screen089
+    3300192: screen090
+    3300194: screen091
+    3300196: screen092
+    3300198: screen093
+    3300200: screen094
+    3300202: screen095
+    3300204: screen096
+    3300206: screen097
+    3300208: screen098
+    3300210: screen099
+    3300212: screen100
+    3300214: screen101
+    3300216: screen102
+    3300218: screen103
+    3300220: screen104
+    3300222: screen105
+    3300224: screen106
+    3300226: screen107
+    3300228: screen108
+    3300230: screen109
+    3300232: screen110
+    3300234: screen111
+    3300236: screen112
+    3300238: screen113
+    3300240: screen114
+    3300242: screen115
+    3300244: screen116
+    3300246: screen117
+    3300248: screen118
+    3300250: screen119
+    3300252: screen120
+    3300254: screen121
+    3300256: screen122
+    3300258: screen123
+    3300260: screen124
+    3300262: screen125
+    3300264: screen126
+    3300266: screen127
+    3300268: screen128
+    3300270: screen129
+    3300272: screen130
+    3300274: screen131
+    3300276: screen132
+    3300278: screen133
+    3300280: screen134
+    3300282: screen135
+    3300284: screen136
+    3300286: screen137
+    3300288: screen138
+    3300290: screen139
+    3300292: screen140
+    3300294: screen141
+    3300296: screen142
+    3300298: screen143
+    3300300: screen144
+    3300302: screen145
+    3300304: screen146
+    3300306: screen147
+    3300308: screen148
+    3300310: screen149
+    3300312: screen150
+    3300314: screen151
+    3300316: screen152
+    3300318: screen153
+    3300320: screen154
+    3300322: screen155
+    3300324: screen156
+    3300326: screen157
+    3300328: screen158
+    3300330: screen159
+    3300332: screen160
+    3300334: screen161
+    3300336: screen162
+    3300338: screen163
+    3300340: screen164
+    3300342: screen165
+    3300344: screen166
+    3300346: screen167
+    3300348: screen168
+    3300350: screen169
+    3300352: screen170
+    3300354: screen171
+    3300356: screen172
+    3300358: screen173
+    3300360: screen174
+    3300362: screen175
+    3300364: screen176
+    3300366: screen177
+    3300368: screen178
+    3300370: screen179
+    3300372: screen180
+    3300374: screen181
+    3300376: screen182
+    3300378: screen183
+    3300380: screen184
+    3300382: screen185
+    3300384: screen186
+    3300386: screen187
+    3300388: screen188
+    3300390: screen189
+    3300392: screen190
+    3300394: screen191
+    3300396: screen192
+    3300398: screen193
+    3300400: screen194
+    3300402: screen195
+    3300404: screen196
+    3300406: screen197
+    3300408: screen198
+    3300410: screen199
+    3300412: screen200
+    3300414: screen201
+    3300416: screen202
+    3300418: screen203
+    3300420: screen204
+    3300422: screen205
+    3300424: screen206
+    3300426: screen207
+    3300428: screen208
+    3300430: screen209
+    3300432: screen210
+    3300434: screen211
+    3300436: screen212
+    3300438: screen213
+    3300440: screen214
+    3300442: screen215
+    3300444: screen216
+    3300446: screen217
+    3300448: screen218
+    3300450: screen219
+    3300452: screen220
+    3300454: screen221
+    3300456: screen222
+    3300458: screen223
+    3300460: screen224
+    3300462: screen225
+    3300464: screen226
+    3300466: screen227
+    3300468: screen228
+    3300470: screen229
+    3300472: screen230
+    3300474: screen232
+    3300476: screen233
+    3300478: screen235
+    3300480: screen237
+    3300482: screen238
+    3300484: screen239
+    3300486: screen240
+    3300488: screen241
+    3300490: screen242
+    3300492: screen243
+    3300494: screen244
+    3300496: screen245
+    3300498: screen246
+    3300500: screen247
+    3300502: screen248
+    3300504: screen249
+    3300506: screen250
+    3300508: screen251
+    3300510: screen252
+    3300512: screen253
+    3300514: screen254
+    3300516: screen255
+    3300518: screen256
+    3300520: screen257
+    3300522: screen258
+    3300524: screen259
+    3300526: screen260
+    3300528: screen261
+    3300530: screen262
+    3300532: screen263
+    3300534: screen264
+    3300536: screen265
+    3300538: screen266
+    3300540: screen267
+    3300542: screen268
+    3300544: screen269
+    3300546: screen270
+    3300548: screen271
+    3300550: screen272
+    3300552: screen273
+    3300554: screen274
+    3300556: screen275
+    3300558: screen276
+    3300560: screen277
+    3300562: screen278
+    3300564: screen279
+    3300566: screen280
+    3300568: screen282
+    3300570: screen283
+    3300572: screen284
+    3300574: screen285
+    3300576: screen286
+    3300578: screen287
+    3300580: screen288
+    3300582: screen289
+    3300584: screen290
+    3300586: screen291
+    3300588: screen292
+    3300590: screen293
+    3300592: screen294
+    3300594: screen295
+    3300596: screen296
+    3300598: screen297
+    3300600: screen298
+    3300602: screen299
+    3300604: screen300
+    3300606: screen301
+    3300608: screen302
+    3300610: screen303
+    3300612: screen304
+    3300614: screen305
+    3300616: screen306
+    3300618: screen307
+    3300620: screen308
+    3300622: screen309
+    3300624: screen310
+    3300626: screen311
+    3300628: screen312
+    3300630: screen313
+    3300632: screen315
+    3300634: screen316
+    3300636: Box268
+    3300638: Object001
+    3300640: Object002
+    3300642: Object003
+    3300644: Object004
+    3300646: Object005
+    3300648: Object006
+    3300650: Object007
+    3300652: Object008
+    3300654: Object009
+    3300656: Plane012
+    3300658: screen003_001
+    3300660: screen003_040
+    3300662: screen003_049
+    3300664: screen003_061
+    3300666: screen003_072
+    3300668: screen003_095
+    3300670: screen003_106
+    3300672: screen003_119
+    3300674: screen003_120
+    3300676: screen003_122
+    3300678: screen003_145
+    3300680: Box266_001
+    3300682: Box267_001
+    3300684: Box269
+    3300686: Line1428_001
+    3300688: Line1431_001
+    3300690: Line2029219539
+    3300692: Line2029219540
+    3300694: Line2029219541
+    3300696: Line2029219542
+    3300698: Object010
+    3300700: Object011
+    3300702: Object012
+    3300704: screen004_001
+    3300706: screen074_001
+    3300708: screen076_001
+    3300710: Line1428_002
+    3300712: Line1428_003
+    3300714: Line1428_004
+    3300716: Line1428_005
+    3300718: screen003_146
+    3300720: Line1428_006
+    3300722: Line1428_007
+    3300724: screen112_002
+    3300726: screen112_004
+    3300728: screen112_016
+    3300730: screen224_001
+    3300732: screen232_001
+    3300734: screen235_002
+    3300736: screen269_001
+    3300738: screen271_001
+    3300740: screen317
+    3300742: screen116_001
+    3300744: screen298_001
+    3300746: screen286_001
+    3300748: Box270
+    3300750: screen158_001
+    4300000: screen001
+    4300002: screen002
+    4300004: Line1428
+    4300006: Box258
+    4300008: screen003
+    4300010: Box266
+    4300012: Box267
+    4300014: Line1431
+    4300016: Line1463
+    4300018: screen004
+    4300020: screen005
+    4300022: screen006
+    4300024: screen007
+    4300026: screen008
+    4300028: screen009
+    4300030: screen010
+    4300032: screen011
+    4300034: screen012
+    4300036: screen013
+    4300038: screen014
+    4300040: screen015
+    4300042: screen016
+    4300044: screen017
+    4300046: screen018
+    4300048: screen019
+    4300050: screen020
+    4300052: screen021
+    4300054: screen022
+    4300056: screen023
+    4300058: screen024
+    4300060: screen025
+    4300062: screen026
+    4300064: screen027
+    4300066: screen028
+    4300068: screen029
+    4300070: screen030
+    4300072: screen031
+    4300074: screen032
+    4300076: screen033
+    4300078: screen034
+    4300080: screen035
+    4300082: screen036
+    4300084: screen037
+    4300086: screen038
+    4300088: screen039
+    4300090: screen040
+    4300092: screen041
+    4300094: screen042
+    4300096: screen043
+    4300098: screen044
+    4300100: screen045
+    4300102: screen046
+    4300104: screen047
+    4300106: screen048
+    4300108: screen049
+    4300110: screen050
+    4300112: screen051
+    4300114: screen052
+    4300116: screen053
+    4300118: screen054
+    4300120: screen055
+    4300122: screen056
+    4300124: screen057
+    4300126: screen058
+    4300128: screen059
+    4300130: screen060
+    4300132: screen061
+    4300134: screen062
+    4300136: screen063
+    4300138: screen064
+    4300140: screen065
+    4300142: screen066
+    4300144: screen067
+    4300146: screen068
+    4300148: screen069
+    4300150: screen070
+    4300152: screen071
+    4300154: screen072
+    4300156: screen073
+    4300158: screen074
+    4300160: screen075
+    4300162: screen076
+    4300164: screen077
+    4300166: screen078
+    4300168: screen079
+    4300170: screen080
+    4300172: screen081
+    4300174: screen082
+    4300176: screen083
+    4300178: screen084
+    4300180: screen085
+    4300182: screen086
+    4300184: screen087
+    4300186: screen088
+    4300188: screen089
+    4300190: screen090
+    4300192: screen091
+    4300194: screen092
+    4300196: screen093
+    4300198: screen094
+    4300200: screen095
+    4300202: screen096
+    4300204: screen097
+    4300206: screen098
+    4300208: screen099
+    4300210: screen100
+    4300212: screen101
+    4300214: screen102
+    4300216: screen103
+    4300218: screen104
+    4300220: screen105
+    4300222: screen106
+    4300224: screen107
+    4300226: screen108
+    4300228: screen109
+    4300230: screen110
+    4300232: screen111
+    4300234: screen112
+    4300236: screen113
+    4300238: screen114
+    4300240: screen115
+    4300242: screen116
+    4300244: screen117
+    4300246: screen118
+    4300248: screen119
+    4300250: screen120
+    4300252: screen121
+    4300254: screen122
+    4300256: screen123
+    4300258: screen124
+    4300260: screen125
+    4300262: screen126
+    4300264: screen127
+    4300266: screen128
+    4300268: screen129
+    4300270: Line2029219538
+    4300272: screen130
+    4300274: screen131
+    4300276: screen132
+    4300278: screen133
+    4300280: screen134
+    4300282: screen135
+    4300284: screen136
+    4300286: screen137
+    4300288: screen138
+    4300290: screen139
+    4300292: screen140
+    4300294: screen141
+    4300296: screen142
+    4300298: screen143
+    4300300: screen144
+    4300302: screen145
+    4300304: screen146
+    4300306: screen147
+    4300308: screen148
+    4300310: screen149
+    4300312: screen150
+    4300314: screen151
+    4300316: screen152
+    4300318: screen153
+    4300320: screen154
+    4300322: screen155
+    4300324: screen156
+    4300326: screen157
+    4300328: screen158
+    4300330: screen159
+    4300332: screen160
+    4300334: screen161
+    4300336: screen162
+    4300338: screen163
+    4300340: screen164
+    4300342: screen165
+    4300344: screen166
+    4300346: screen167
+    4300348: screen168
+    4300350: screen169
+    4300352: screen170
+    4300354: screen171
+    4300356: screen172
+    4300358: screen173
+    4300360: screen174
+    4300362: screen175
+    4300364: screen176
+    4300366: screen177
+    4300368: screen178
+    4300370: screen179
+    4300372: screen180
+    4300374: screen181
+    4300376: screen182
+    4300378: screen183
+    4300380: screen184
+    4300382: screen185
+    4300384: screen186
+    4300386: screen187
+    4300388: screen188
+    4300390: screen189
+    4300392: screen190
+    4300394: screen191
+    4300396: screen192
+    4300398: screen193
+    4300400: screen194
+    4300402: screen195
+    4300404: screen196
+    4300406: screen197
+    4300408: screen198
+    4300410: screen199
+    4300412: screen200
+    4300414: screen201
+    4300416: screen202
+    4300418: screen203
+    4300420: screen204
+    4300422: screen205
+    4300424: screen206
+    4300426: screen207
+    4300428: screen208
+    4300430: screen209
+    4300432: screen210
+    4300434: screen211
+    4300436: screen212
+    4300438: screen213
+    4300440: screen214
+    4300442: screen215
+    4300444: screen216
+    4300446: screen217
+    4300448: screen218
+    4300450: screen219
+    4300452: screen220
+    4300454: screen221
+    4300456: screen222
+    4300458: screen223
+    4300460: screen224
+    4300462: screen225
+    4300464: screen226
+    4300466: screen227
+    4300468: screen228
+    4300470: screen229
+    4300472: screen230
+    4300474: screen232
+    4300476: screen233
+    4300478: screen235
+    4300480: screen237
+    4300482: screen238
+    4300484: screen239
+    4300486: screen240
+    4300488: screen241
+    4300490: screen242
+    4300492: screen243
+    4300494: screen244
+    4300496: screen245
+    4300498: screen246
+    4300500: screen247
+    4300502: screen248
+    4300504: screen249
+    4300506: screen250
+    4300508: screen251
+    4300510: screen252
+    4300512: screen253
+    4300514: screen254
+    4300516: screen255
+    4300518: screen256
+    4300520: screen257
+    4300522: screen258
+    4300524: screen259
+    4300526: screen260
+    4300528: screen261
+    4300530: screen262
+    4300532: screen263
+    4300534: screen264
+    4300536: screen265
+    4300538: screen266
+    4300540: screen267
+    4300542: screen268
+    4300544: screen269
+    4300546: screen270
+    4300548: screen271
+    4300550: screen272
+    4300552: screen273
+    4300554: screen274
+    4300556: screen275
+    4300558: screen276
+    4300560: screen277
+    4300562: screen278
+    4300564: screen279
+    4300566: screen280
+    4300568: screen282
+    4300570: screen283
+    4300572: screen284
+    4300574: screen285
+    4300576: screen286
+    4300578: screen287
+    4300580: screen288
+    4300582: screen289
+    4300584: screen290
+    4300586: screen291
+    4300588: screen292
+    4300590: screen293
+    4300592: screen294
+    4300594: screen295
+    4300596: screen296
+    4300598: screen297
+    4300600: screen298
+    4300602: screen299
+    4300604: screen300
+    4300606: screen301
+    4300608: screen302
+    4300610: screen303
+    4300612: screen304
+    4300614: screen305
+    4300616: screen306
+    4300618: screen307
+    4300620: screen308
+    4300622: screen309
+    4300624: screen310
+    4300626: screen311
+    4300628: screen312
+    4300630: screen313
+    4300632: screen315
+    4300634: screen316
+    4300636: Box268
+    4300638: Object001
+    4300640: Object002
+    4300642: Object003
+    4300644: Object004
+    4300646: Object005
+    4300648: screen003_001
+    4300650: screen003_040
+    4300652: screen003_049
+    4300654: screen003_061
+    4300656: screen003_072
+    4300658: screen003_095
+    4300660: screen003_106
+    4300662: screen003_119
+    4300664: screen003_120
+    4300666: screen003_122
+    4300668: screen003_145
+    4300670: Object006
+    4300672: Object007
+    4300674: Object008
+    4300676: Object009
+    4300678: Plane012
+    4300680: Line1428_001
+    4300682: Object010
+    4300684: Object011
+    4300686: Object012
+    4300688: screen004_001
+    4300690: Line2029219539
+    4300692: screen074_001
+    4300694: screen076_001
+    4300696: Line1431_001
+    4300698: Box267_001
+    4300700: Line2029219540
+    4300702: Line2029219541
+    4300704: Box266_001
+    4300706: Line2029219542
+    4300708: Box269
+    4300710: Line1428_002
+    4300712: Line1428_003
+    4300714: Line1428_004
+    4300716: Line1428_005
+    4300718: screen003_146
+    4300720: screen232_001
+    4300722: screen235_002
+    4300724: screen112_002
+    4300726: screen112_004
+    4300728: screen112_016
+    4300730: screen269_001
+    4300732: screen224_001
+    4300734: Line1428_006
+    4300736: Line1428_007
+    4300738: screen271_001
+    4300740: screen317
+    4300742: screen298_001
+    4300744: screen116_001
+    4300746: screen286_001
+    4300748: Box270
+    4300750: screen158_001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 642a99a6ad565324182a362c3a45a217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Defaulthjj
+    second: {fileID: 2100000, guid: edc493e6560307a44953fd548f33806d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: 8f920743b0288b648a82b4c5cc1a4783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1
+    second: {fileID: 2100000, guid: d7a0692439fd7e44a9200bd5146d6d74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 - Default
+    second: {fileID: 2100000, guid: 6c80f1894bdc61b4381a886a921d939c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 - Default
+    second: {fileID: 2100000, guid: 77796659e4624ee42bb429b75b41a9ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - Defaultrrrr
+    second: {fileID: 2100000, guid: aa9647a59128917439a3aedd97c9fa2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19 - Default
+    second: {fileID: 2100000, guid: 9f7891e948f4d904b8b7ec4ea5f25457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2
+    second: {fileID: 2100000, guid: 34a1f1e1d68e95640b13998e6ab0387c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20 - Default
+    second: {fileID: 2100000, guid: 00e322d0260f1c1499f491c3b0655989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2011624155452661
+    second: {fileID: 2100000, guid: 84aa4381f199f2a4a9d045a5f261c945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23 - Default1
+    second: {fileID: 2100000, guid: e93a0e9e0aec852439e1ac184a7ca687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 9 - Default
+    second: {fileID: 2100000, guid: 7aecc070c9efd5c4580e31b9e97f2a0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLACK_PLSTC
+    second: {fileID: 2100000, guid: 8a0a28df0b2860149a4bac01c815ea86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp glass
+    second: {fileID: 2100000, guid: af45764de60d9db439974766c1e185a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1'
+    second: {fileID: 2100000, guid: b01dcda0896abcc449e6d89af6f6aa1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #113'
+    second: {fileID: 2100000, guid: 32e00e20a9e67f245ac722604635197d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1802'
+    second: {fileID: 2100000, guid: 99199b0bfa1ffc744b900ebd588ae74b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #181'
+    second: {fileID: 2100000, guid: 5e9112a4ff683c34996da2366f4ab5c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: 42d63adb6940f6b449781b39a61a06a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2097628304'
+    second: {fileID: 2100000, guid: d030e498b6e4e3942925cf121af042c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #21'
+    second: {fileID: 2100000, guid: 8601ee458b8885646b914dbdd011f899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #211915'
+    second: {fileID: 2100000, guid: 3280562af5064964fb1bc7b8dec94218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2143312809'
+    second: {fileID: 2100000, guid: 42d63adb6940f6b449781b39a61a06a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2143313485'
+    second: {fileID: 2100000, guid: 34a8214843d782947a750fce910b61f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2244'
+    second: {fileID: 2100000, guid: 5dd3688fc419d384ea585c829b29d92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #26'
+    second: {fileID: 2100000, guid: d7814df834230c54ea23477b87c3de2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #27'
+    second: {fileID: 2100000, guid: 3e6658ba27c87894eb0b6fe4ff91aaea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #3'
+    second: {fileID: 2100000, guid: e1751e7b2b9529a4ea740c454cabc143, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 6b92ae0993d456341a7460961b7fa340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #4'
+    second: {fileID: 2100000, guid: 42d63adb6940f6b449781b39a61a06a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #44'
+    second: {fileID: 2100000, guid: 5c360ae5524c1bf4f82d9d06fcf3d73c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #5'
+    second: {fileID: 2100000, guid: 84f85df679705ca40964457198f97185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #75'
+    second: {fileID: 2100000, guid: 826a14014404648438fe7594a669d46d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #76'
+    second: {fileID: 2100000, guid: ae5c9cd746deb3e45b4131d698ba3b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #77'
+    second: {fileID: 2100000, guid: 6b92ae0993d456341a7460961b7fa340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #78'
+    second: {fileID: 2100000, guid: 32e00e20a9e67f245ac722604635197d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #79'
+    second: {fileID: 2100000, guid: 614fef38e8784cb489b10f7c35383482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #80'
+    second: {fileID: 2100000, guid: e2363f2929ab6654ea9ad34bdc3b5f3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1123
+    second: {fileID: 2100000, guid: af2966e1160dad1478474afb1aace5df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__1191
+    second: {fileID: 2100000, guid: 114acb920473a88479cd9147f55a3e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalCopperObject
+    second: {fileID: 2100000, guid: b0a773334f9e90a4dac5cb4d8c4df49a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 1b47e306de9343d46a6f6ca4e5b40c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PURPLE_2
+    second: {fileID: 2100000, guid: 3b5a6fa61c01cdb41a3b23ee9549d180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_10SSSS
+    second: {fileID: 2100000, guid: fa4f120b9fc93c0468733b4cef5ae846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_16
+    second: {fileID: 2100000, guid: 215a91f5c5246c64e8f7d0c47d768b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_164532
+    second: {fileID: 2100000, guid: e7179efb3c408d24ab164fde061d9c82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_19
+    second: {fileID: 2100000, guid: a7bce29d819293a48857d2d5f1d6a06d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_20
+    second: {fileID: 2100000, guid: 1dabe1a2ea801f14590abdb5ae8a0835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_21
+    second: {fileID: 2100000, guid: 346befd741ae1bd4fb45999e33d7debb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_22
+    second: {fileID: 2100000, guid: fa02390e0f30f9b48b41e95d02475593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl_14
+    second: {fileID: 2100000, guid: 2d5c260b1248801458ab5212e32ea8f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl_20
+    second: {fileID: 2100000, guid: c4f9467fbc1549d418ddcbaed77467b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_OBJ\u6587\u4EF6Material__245"
+    second: {fileID: 2100000, guid: 77dd9c78ec9357e4a89c3697d7740487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "_OBJ\u6587\u4EF6Material__249"
+    second: {fileID: 2100000, guid: be75c8da249f2704c9f2e03c2fd0dd47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0014
+    second: {fileID: 2100000, guid: 2e8452638cbdf97459b7fb5ef1b3b47d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0020
+    second: {fileID: 2100000, guid: b16453829a72b214f923fef0204dfdd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0021
+    second: {fileID: 2100000, guid: dea30d4105bff764aa2a40390ff570c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0090
+    second: {fileID: 2100000, guid: c863d94acd59ecf4a8b0d975e171d731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0091
+    second: {fileID: 2100000, guid: 2bf07349e77243a41953db70ca2a531d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0092
+    second: {fileID: 2100000, guid: d8993186f693dda40833a7add8c7a90d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0093
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0094
+    second: {fileID: 2100000, guid: c88853953949aef45a91597a72013f5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0095
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0096
+    second: {fileID: 2100000, guid: 491c463541e052e40b6e14f21e77c4a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0097
+    second: {fileID: 2100000, guid: a97ccaf439c48cc4ea7f91eaa38225c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0098
+    second: {fileID: 2100000, guid: 958058f6f235c2f489503eb0108b5e69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0099
+    second: {fileID: 2100000, guid: a97ccaf439c48cc4ea7f91eaa38225c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0100
+    second: {fileID: 2100000, guid: f93394dd32b3bf342b6c75ea73df5f07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0101
+    second: {fileID: 2100000, guid: 57c8d6965e93bf4499bacaa519b7949d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0104
+    second: {fileID: 2100000, guid: cef39d9475ae9234db9831e0211a08fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0105
+    second: {fileID: 2100000, guid: f7aef470ba0211845aaf00d9522e408d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0106
+    second: {fileID: 2100000, guid: 4e1ffc4a25f9f944fb619785b2ad8fae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0107
+    second: {fileID: 2100000, guid: c863d94acd59ecf4a8b0d975e171d731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0116
+    second: {fileID: 2100000, guid: 07a6ed13724c9464193ce6f0e079feb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0117
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0119
+    second: {fileID: 2100000, guid: 6972002e2197db24a96e3e2e0142273c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0120
+    second: {fileID: 2100000, guid: f5059c75acc975344931a1bc6e183741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0123
+    second: {fileID: 2100000, guid: 02183ab51d594114eada9df309d9da1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0124
+    second: {fileID: 2100000, guid: 50747b934f6587e4aa727e6505a03de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0134
+    second: {fileID: 2100000, guid: fca99d09fdcc7c840a74061b98a872bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0177
+    second: {fileID: 2100000, guid: 4e22887c9bbaa8e43ad8a87e3066852a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0178
+    second: {fileID: 2100000, guid: c04fa11208521e44caeb62a68e33addd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0179
+    second: {fileID: 2100000, guid: 5a5605277d5625843931c21c158001f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0180
+    second: {fileID: 2100000, guid: 5a5605277d5625843931c21c158001f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0181
+    second: {fileID: 2100000, guid: 768387af09e86414b960f97727ac72cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0182
+    second: {fileID: 2100000, guid: 5a5605277d5625843931c21c158001f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0183
+    second: {fileID: 2100000, guid: e12845c6f5323454b8346c6a0594b8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0184
+    second: {fileID: 2100000, guid: 625071b3ea114b742beaf1454250aa09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0236
+    second: {fileID: 2100000, guid: a9218b9ff973e114e91aed3f881b7501, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0237
+    second: {fileID: 2100000, guid: 639247b4eca76104c90657510edf4678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0238
+    second: {fileID: 2100000, guid: 643a1e20c428d7247a28e0e1ddd68eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0239
+    second: {fileID: 2100000, guid: 639247b4eca76104c90657510edf4678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0240
+    second: {fileID: 2100000, guid: 2faa08330f960aa46bee1c3a2ed140e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0241
+    second: {fileID: 2100000, guid: 639247b4eca76104c90657510edf4678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0242
+    second: {fileID: 2100000, guid: 0e26e191967f8794d99feea6a14d6903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0243
+    second: {fileID: 2100000, guid: a97ccaf439c48cc4ea7f91eaa38225c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0244
+    second: {fileID: 2100000, guid: f69403550070f8c449fcd160c50ccfd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0245
+    second: {fileID: 2100000, guid: 50747b934f6587e4aa727e6505a03de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0246
+    second: {fileID: 2100000, guid: 7cb37150dd043c34eb13aaa5bf4e2ba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0247
+    second: {fileID: 2100000, guid: f5059c75acc975344931a1bc6e183741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0252
+    second: {fileID: 2100000, guid: 0450308e0c673d640828e44f3ba35e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0253
+    second: {fileID: 2100000, guid: a97ccaf439c48cc4ea7f91eaa38225c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0260
+    second: {fileID: 2100000, guid: 19833691723bdcb47ae0a179daa6d88a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0261
+    second: {fileID: 2100000, guid: 50747b934f6587e4aa727e6505a03de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0268
+    second: {fileID: 2100000, guid: b1739de81c5184b419da05fd2b2b502c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0269
+    second: {fileID: 2100000, guid: 34bc0abd060c6b946b68d5bbaa291aca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0270
+    second: {fileID: 2100000, guid: ded65536bffede74d9c77831886d4870, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0271
+    second: {fileID: 2100000, guid: 34bc0abd060c6b946b68d5bbaa291aca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0272
+    second: {fileID: 2100000, guid: 054b59ea5121b7f4ca458bc4b6a3651c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0273
+    second: {fileID: 2100000, guid: 34bc0abd060c6b946b68d5bbaa291aca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0278
+    second: {fileID: 2100000, guid: 701f7b4cdfb3bec4dacb43813490ee4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0279
+    second: {fileID: 2100000, guid: 4972f948e8d54ad409d4fbec01c61215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0331
+    second: {fileID: 2100000, guid: 751c94cd75d98e44ebaa8530254a21c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0332
+    second: {fileID: 2100000, guid: 02264be87793a454db88189b6f103ea6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0349
+    second: {fileID: 2100000, guid: 408512f8f9f81a941aeb937d06dda57e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0547
+    second: {fileID: 2100000, guid: eb4f48fb05d4ab546bcba787db94523e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0548
+    second: {fileID: 2100000, guid: eb4f48fb05d4ab546bcba787db94523e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0549
+    second: {fileID: 2100000, guid: eb4f48fb05d4ab546bcba787db94523e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0550
+    second: {fileID: 2100000, guid: eb4f48fb05d4ab546bcba787db94523e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgmodel.com_abl2011_0555
+    second: {fileID: 2100000, guid: 414b22ba81bcae649aef9c5d1ee06215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f
+    second: {fileID: 2100000, guid: 2b8f59e43778ff740adbf9fcc1f5f8e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jiutanbased
+    second: {fileID: 2100000, guid: a2efe1ecc7f67d844b773d022f48c036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamp body2
+    second: {fileID: 2100000, guid: 60183d8910903fe4bbbbdc46b7f1793b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material100
+    second: {fileID: 2100000, guid: 1a81e33c655a1f24cb8124b7e187e512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material101
+    second: {fileID: 2100000, guid: 3762185f268bd7645aa280064ab92331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material102
+    second: {fileID: 2100000, guid: 1fe1fb042893df54da5774cbf7c2bd04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material103
+    second: {fileID: 2100000, guid: 70aea97c26a82444d80263645802fbef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material106
+    second: {fileID: 2100000, guid: aa9647a59128917439a3aedd97c9fa2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material107
+    second: {fileID: 2100000, guid: 0a53db9b5e073f34f85f3b8c8ca18382, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material108
+    second: {fileID: 2100000, guid: 158e4b77af44b5443beb9c5478761a63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material109
+    second: {fileID: 2100000, guid: 3cef871ece052114ea98a724ea2cf329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material110
+    second: {fileID: 2100000, guid: ee07be6e5d9e2244abe8771bc13ce68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material111
+    second: {fileID: 2100000, guid: c402589c1fd63dc46b46997710cac2bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material117
+    second: {fileID: 2100000, guid: 2fc41d0940d3fd640901dfdd2480b073, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material118
+    second: {fileID: 2100000, guid: e6a32d9bbc13ddf44b5fdfb876b25541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material121
+    second: {fileID: 2100000, guid: 2dedd2a9fcbd91544937235209c84ba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material122
+    second: {fileID: 2100000, guid: cc4bb0d4050dcf849838c4a305d68400, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material123
+    second: {fileID: 2100000, guid: 783a33d9aacfb0e4891664a28f56e9e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material124
+    second: {fileID: 2100000, guid: dced38a10c0869d4786f1a10011af197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material125
+    second: {fileID: 2100000, guid: 76556f238f8441148a909892e10f33b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material126
+    second: {fileID: 2100000, guid: 40a83e3aa44e821479f25d0749c0f130, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material127
+    second: {fileID: 2100000, guid: 1e4b416f03c62994b8641dff10754eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material128
+    second: {fileID: 2100000, guid: 21d482ed54ed6d24395a71ce51962b43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material130
+    second: {fileID: 2100000, guid: 4cd470cb48849fc43bb8bb361509af4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material131
+    second: {fileID: 2100000, guid: 604a629883b7d2b489cd2a01993580ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material132
+    second: {fileID: 2100000, guid: 7c291b916b0e39647af386f6578cb950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material133
+    second: {fileID: 2100000, guid: 170760d7ab7c3b44d99864b74761f45b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material134
+    second: {fileID: 2100000, guid: 08f7099108315954a81f5683cbd4e8ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material135
+    second: {fileID: 2100000, guid: 56e0bed9fd5ee1446a10a0eb06046005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material136
+    second: {fileID: 2100000, guid: 9a2a438fb9cab154fbcc4be09b8ba526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material137
+    second: {fileID: 2100000, guid: af2f8ee3a2f12d44290e42e87ef3c79e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material138
+    second: {fileID: 2100000, guid: 8eed349ec04172849be6698825020361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material139
+    second: {fileID: 2100000, guid: 8c2a599393361ed43a5ecd2db88e3362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material140
+    second: {fileID: 2100000, guid: ba1b7d4b0d77598448ce18ec96f97032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material141
+    second: {fileID: 2100000, guid: 2a2ebc5047f7bff40ae41bc6a6ac14d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material142
+    second: {fileID: 2100000, guid: 816d73cfe8e428441817eaf5f2b84b04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material143
+    second: {fileID: 2100000, guid: d44578b404ed021408eda0a0a7a67b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material144
+    second: {fileID: 2100000, guid: 58719910448d6c9498d5d550b2bcac2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material145
+    second: {fileID: 2100000, guid: 8918109f86743b24496f965c4527642c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material146
+    second: {fileID: 2100000, guid: e9253938dc1d15d489d6ae8664957082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material147
+    second: {fileID: 2100000, guid: c48e69d288456f0488b4da508b27be92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material148
+    second: {fileID: 2100000, guid: 72cc3d8e5af467746a59b8707455ace9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material149
+    second: {fileID: 2100000, guid: 2c5b0e8da25c393408fe2d5e043be118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material15
+    second: {fileID: 2100000, guid: 8cc6434942bcb97499046a815a713495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material150
+    second: {fileID: 2100000, guid: 57906ebfc2ce1454caa9419c17843030, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material151
+    second: {fileID: 2100000, guid: a5cf820bceb309b4fa6ff8fa9b52825c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material152
+    second: {fileID: 2100000, guid: 51f02495d1a747e4fba97de309a84134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material153
+    second: {fileID: 2100000, guid: 6bef6fb4ec7ea0b4fb2c6fe5082bbc9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material154
+    second: {fileID: 2100000, guid: a46f924cde0f786449c852ee8411070a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material155
+    second: {fileID: 2100000, guid: 670ad374eff47f24ab0a03eaba412bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material156
+    second: {fileID: 2100000, guid: f9297b4ef2c33024d8fefbfd0c2eb5da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material157
+    second: {fileID: 2100000, guid: 6266448c7369f9042b4bb10ba35d5aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material158
+    second: {fileID: 2100000, guid: 2db63f6c9f3b2e441bc61e04e97bb987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material159
+    second: {fileID: 2100000, guid: a891e02ba3280204cac4f0e28562a719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material160
+    second: {fileID: 2100000, guid: 40bba4fc1b46593469885b28a533318d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material161
+    second: {fileID: 2100000, guid: 0c2ac401fe54cf34ab99393e46dbc97e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material163
+    second: {fileID: 2100000, guid: 540d86e0571cdbb4683b8c64616f905a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material165
+    second: {fileID: 2100000, guid: 5adb32cbdfd04a8458cb5a392257f6ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material179
+    second: {fileID: 2100000, guid: 3b97d39625fc64249994405b57f40c93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material180
+    second: {fileID: 2100000, guid: dedd773fe8b25a54cb57dcb4ed7abc53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material181
+    second: {fileID: 2100000, guid: cea49748e72c25e4197fbec5c6ba834c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material182
+    second: {fileID: 2100000, guid: bad07f4261142474ca0c97d7f670eb0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material184
+    second: {fileID: 2100000, guid: a51891e127c2b20418cd6bc6cd1c7e83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material188
+    second: {fileID: 2100000, guid: 4b8bb529801924046a606830067c19ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material192
+    second: {fileID: 2100000, guid: 2a7528296284c1946ad3cd6db179f72c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material195
+    second: {fileID: 2100000, guid: afd8d90092d1b394d80de764f04c01df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material196
+    second: {fileID: 2100000, guid: f7aef470ba0211845aaf00d9522e408d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material197
+    second: {fileID: 2100000, guid: ba8c86da176b40b47b74960bae53fa9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material198
+    second: {fileID: 2100000, guid: 5688f6bf1708ff449b30245fed65e453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material200
+    second: {fileID: 2100000, guid: 3196e725d4716d342b8f2425ecac8d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material201
+    second: {fileID: 2100000, guid: 0dac3aacdf42624408de2dceb32ef8dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material202
+    second: {fileID: 2100000, guid: 3804dc5fb0751bc4c8440d98a34e9466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material203
+    second: {fileID: 2100000, guid: ba43e59de839f6548b967b25e077ad3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material204
+    second: {fileID: 2100000, guid: 46433d2753b326e488ef29912dba9d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material205
+    second: {fileID: 2100000, guid: d79d400fe6285e94f86931a6d2b8a8fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material206
+    second: {fileID: 2100000, guid: 4b3da1ed55289d54b93ae38152fcaa80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material207
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material208
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material209
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material210
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material211
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material212
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material213
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material214
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material215
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material216
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material217
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material218
+    second: {fileID: 2100000, guid: fad8c25afebb85d44be033145730d192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material221
+    second: {fileID: 2100000, guid: 55a4233d7b0087745a88a66cd42e58e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material222
+    second: {fileID: 2100000, guid: d8993186f693dda40833a7add8c7a90d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material223
+    second: {fileID: 2100000, guid: f5059c75acc975344931a1bc6e183741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material224
+    second: {fileID: 2100000, guid: f5059c75acc975344931a1bc6e183741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material225
+    second: {fileID: 2100000, guid: f5059c75acc975344931a1bc6e183741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material227
+    second: {fileID: 2100000, guid: 50747b934f6587e4aa727e6505a03de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material228
+    second: {fileID: 2100000, guid: 50747b934f6587e4aa727e6505a03de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material230
+    second: {fileID: 2100000, guid: a97ccaf439c48cc4ea7f91eaa38225c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material231
+    second: {fileID: 2100000, guid: a97ccaf439c48cc4ea7f91eaa38225c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material232
+    second: {fileID: 2100000, guid: a97ccaf439c48cc4ea7f91eaa38225c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material234
+    second: {fileID: 2100000, guid: c88853953949aef45a91597a72013f5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material235
+    second: {fileID: 2100000, guid: c863d94acd59ecf4a8b0d975e171d731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material236
+    second: {fileID: 2100000, guid: c863d94acd59ecf4a8b0d975e171d731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material35
+    second: {fileID: 2100000, guid: eb4f48fb05d4ab546bcba787db94523e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material36
+    second: {fileID: 2100000, guid: 2e8452638cbdf97459b7fb5ef1b3b47d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material37
+    second: {fileID: 2100000, guid: da12e4538dd753c41aff1436263668ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material38
+    second: {fileID: 2100000, guid: 93ef612e5b0825346abeb30378b3855e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material39
+    second: {fileID: 2100000, guid: b16453829a72b214f923fef0204dfdd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material40
+    second: {fileID: 2100000, guid: 9cd847f4d8c585b47b688d69ae04f714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material41
+    second: {fileID: 2100000, guid: f4fce90561c3d8e438600ddb43e6cfb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material42
+    second: {fileID: 2100000, guid: eb4a9ba0abb74354497e0203612b000a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material43
+    second: {fileID: 2100000, guid: 0c565fe3e817a064eb656b9ee3a81a07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material44
+    second: {fileID: 2100000, guid: 4edbad61d1813c64e9a3123bdb428c01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material45
+    second: {fileID: 2100000, guid: 61f143ace7550f94dbd8212a32462b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material46
+    second: {fileID: 2100000, guid: f7aef470ba0211845aaf00d9522e408d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material47
+    second: {fileID: 2100000, guid: c863d94acd59ecf4a8b0d975e171d731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material48
+    second: {fileID: 2100000, guid: 0d7a1d2f52f54fa489895026d7f630f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material49
+    second: {fileID: 2100000, guid: 2a01aa99c3a080f46a3019b3920a9d54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material52
+    second: {fileID: 2100000, guid: 45227f1359d5cd84cbe7922b6dd69b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material54
+    second: {fileID: 2100000, guid: b87356389f52d7e42b9c546c5160222a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material55
+    second: {fileID: 2100000, guid: 54bd1ac5cb445dc4a94f066aa87027b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material57
+    second: {fileID: 2100000, guid: d8f9d70bfa87d234d97b122f851866e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material58
+    second: {fileID: 2100000, guid: 92f7360b1d7ce9d44be6ce19e705953d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material59
+    second: {fileID: 2100000, guid: bde03dc58e98d4842a430d3f14b7deab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material60
+    second: {fileID: 2100000, guid: 6b9e843a63f929b41a8f2ef66b72a801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material61
+    second: {fileID: 2100000, guid: dc7e9903392f5494c9277254503ada41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material62
+    second: {fileID: 2100000, guid: 8e3daf02743a50d449d726aff82d5897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material63
+    second: {fileID: 2100000, guid: 8561e669f3c12f34a8998702bb56870f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material64
+    second: {fileID: 2100000, guid: 2e4e8a0766e6d3e4f9444676c448de8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material65
+    second: {fileID: 2100000, guid: 04ace5de718aa6147b553f529725f0b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material66
+    second: {fileID: 2100000, guid: 43ef8bde1de4ff44e8c968bfc30bc390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material67
+    second: {fileID: 2100000, guid: 46501b128d76e6f40a840538a4890b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material69
+    second: {fileID: 2100000, guid: 66dfdb9d630bca045ab5ebab472c14dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material70
+    second: {fileID: 2100000, guid: 82b1662d1da1f4144916df321e9d9769, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material71
+    second: {fileID: 2100000, guid: bdb563b5753bb0040890f4be868ca516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material72
+    second: {fileID: 2100000, guid: bde602f32cee59349878ea65bfe7b4cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material73
+    second: {fileID: 2100000, guid: 0e356d624dfa328499d87afe1c71685a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material74
+    second: {fileID: 2100000, guid: 488611d97e002cf479404f7ded8e0b97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material75
+    second: {fileID: 2100000, guid: fac80ed34f5f2134f8c9a9694d3eebcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material76
+    second: {fileID: 2100000, guid: d4ac4f5de26b78c4688f1f9dbce9b856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material77
+    second: {fileID: 2100000, guid: 82a91914c985a2d459a090d195aad964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material79
+    second: {fileID: 2100000, guid: 57caccadbb7fbaf42a708a5835295511, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material80
+    second: {fileID: 2100000, guid: fb578d018d6a1ff4e9d49e5a21848edc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material81
+    second: {fileID: 2100000, guid: 1aa2cd4e644e9994a9cfe796537fb82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material82
+    second: {fileID: 2100000, guid: f9b3b83ad54aee048aaf5126314771dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material83
+    second: {fileID: 2100000, guid: 488611d97e002cf479404f7ded8e0b97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material86
+    second: {fileID: 2100000, guid: 1e5080361021d034fa10807d95a4a5d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material87
+    second: {fileID: 2100000, guid: f6027f52ce6f0344b85964b8c3fd6946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material88
+    second: {fileID: 2100000, guid: 8851155b6436f4349b73ecc2f983d0d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material89
+    second: {fileID: 2100000, guid: cec9b19361fd1794cbcf6a9c56ba1931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material90
+    second: {fileID: 2100000, guid: 927f3f91004aeab45ba40518b05a7e87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material91
+    second: {fileID: 2100000, guid: e6a32d9bbc13ddf44b5fdfb876b25541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material92
+    second: {fileID: 2100000, guid: 306b2d70615ceed46b477aa047fc353f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material93
+    second: {fileID: 2100000, guid: 2dedd2a9fcbd91544937235209c84ba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material94
+    second: {fileID: 2100000, guid: c7e7df24beb56e040a3aac0803fb2481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material98
+    second: {fileID: 2100000, guid: 6488c8f9ff59fcf4ab050b03e1284cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc02_material99
+    second: {fileID: 2100000, guid: aa9647a59128917439a3aedd97c9fa2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: youqiannan01_shenti
+    second: {fileID: 2100000, guid: be933f9b9ff7e9048b08f0a61101112f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: youqiannan01_tou
+    second: {fileID: 2100000, guid: 00e322d0260f1c1499f491c3b0655989, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
