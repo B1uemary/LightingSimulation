@@ -5,11 +5,11 @@ using UnityEngine;
 public class CharacterRaycaster : MonoBehaviour
 {
 
-	public LayerMask m_mask;
+	public LayerMask m_mask = ~0;
 
 	public float m_clickDistance = 2;
 
-	public string m_lightingParentName = "Light";
+	public string m_lightingParentName = "Lights";
 	public string m_windowsParentName = "Windows";
 
 	private Transform m_temoTran;
@@ -24,6 +24,7 @@ public class CharacterRaycaster : MonoBehaviour
 			if (Input.GetMouseButtonDown (0)) {
 
 				m_temoTran = hit.transform;
+
 				//lighting
 				if (m_temoTran.parent.name == m_lightingParentName) {
 					LightingSwitch lightingSwitch = m_temoTran.GetComponent<LightingSwitch> ();

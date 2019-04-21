@@ -5,7 +5,7 @@ using UnityEngine;
 public class SceneManager : MonoBehaviour
 {
 
-	public string m_lightingParentName = "Light";
+	public string m_lightingParentName = "Lights";
 	public float m_clickDistance = 2;
 
 	private string m_perfabName = "LightingUI";
@@ -22,7 +22,7 @@ public class SceneManager : MonoBehaviour
 	{
 
 		m_lightParent = GameObject.Find (m_lightingParentName);
-		m_ligthUIParent = GameObject.Find ("Canvas/LightingUI");
+		m_ligthUIParent = GameObject.Find ("Canvas/LightingUIs");
 		m_character = GameObject.Find ("CharacterController").transform;
 		Debug.Log (m_character);
 
