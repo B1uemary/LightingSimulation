@@ -51,7 +51,7 @@ public class SceneManager : MonoBehaviour
 		UIObject.name = "UI" + go.name;
 
 		UIFollow uiFollow = go.AddComponent<UIFollow> ();
-		Debug.Log (go);
+		//Debug.Log (go);
 
 		uiFollow.m_follow = go;
 
