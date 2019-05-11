@@ -20,11 +20,11 @@ public class ScreenShot : MonoBehaviour
 
 	public Sprite ImageOriginSprite;
 
-    public Camera sceneShotCamera; //用来截场景中的三张图片
-    public Camera sceneShotCamera2;
-    public Camera sceneShotCamera3;
+	public Camera sceneShotCamera; //用来截场景中的三张图片
+	public Camera sceneShotCamera2;
+	public Camera sceneShotCamera3;
 
-    public List<Transform> transformRefs;//用来截图的三个位置
+	public List<Transform> transformRefs;//用来截图的三个位置
 
 
 	private void Start ()
@@ -125,31 +125,31 @@ public class ScreenShot : MonoBehaviour
 	public List<Texture2D> CaptureAllScene ()
 	{
 		sceneShotCamera.enabled = true;
-        sceneShotCamera2.enabled = true;
-        sceneShotCamera3.enabled = true;
+		sceneShotCamera2.enabled = true;
+		sceneShotCamera3.enabled = true;
 
-        List<Camera> cameraList = new List<Camera>();
-        cameraList.Add(sceneShotCamera);
-        cameraList.Add(sceneShotCamera2);
-        cameraList.Add(sceneShotCamera3);
+		List<Camera> cameraList = new List<Camera> ();
+		cameraList.Add (sceneShotCamera);
+		cameraList.Add (sceneShotCamera2);
+		cameraList.Add (sceneShotCamera3);
 
-        List<Texture2D> sceneImages = new List<Texture2D> ();
+		List<Texture2D> sceneImages = new List<Texture2D> ();
 
 		for (int i = 0; i < transformRefs.Count; i++) {
-            sceneShotCamera = cameraList[i];
+			sceneShotCamera = cameraList [i];
 			Texture2D texture = CaptureScene ();
 			sceneImages.Add (texture);
 			Debug.Log (i);
 		}
 		sceneShotCamera.enabled = false;
-        sceneShotCamera2.enabled = false;
-        sceneShotCamera3.enabled = false;
+		sceneShotCamera2.enabled = false;
+		sceneShotCamera3.enabled = false;
 
 
-        for (int i = 0; i < transformRefs.Count; i++) {
+		for (int i = 0; i < transformRefs.Count; i++) {
 
 			byte [] bytes = sceneImages [i].EncodeToPNG ();
-			string filename = Application.dataPath + string.Format ("/Screenshot{0}.png", i);
+			string filename = Application.dataPath + string.Format ("ScreenShot/Screenshot{0}.png", i);
 			System.IO.File.WriteAllBytes (filename, bytes);
 			Debug.Log (string.Format ("截屏了一张照片: {0}", filename));
 

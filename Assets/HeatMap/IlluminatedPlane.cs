@@ -109,6 +109,19 @@ namespace LightingExperiment
 				//初始化照度图上的标签
 				SwitchLable ();
 				InitialLabels ();
+
+				sideWindowsCount = 0;
+
+
+				Transform lights = GameObject.Find ("Lights").transform;
+				LampCount = lights.childCount;
+
+				for (int i = 0; i < lights.childCount; i++) {
+					boardLights.Add (lights.GetChild (i).GetComponent<Light> ());
+				}
+
+
+
 			}
 
 			//更新参数接口
@@ -116,6 +129,9 @@ namespace LightingExperiment
 			{
 				if (PlaneMaterial != null) {
 					//侧窗
+
+					Debug.Log ("Triiger!!");
+
 					PlaneMaterial.SetVectorArray ("_WindowPositionArray", sideWindowPositionArray);
 					PlaneMaterial.SetFloatArray ("_WindowWidthArray", sideWindowWidthArray);
 					PlaneMaterial.SetFloatArray ("_WindowHeightArray", sideWindowHeightArray);

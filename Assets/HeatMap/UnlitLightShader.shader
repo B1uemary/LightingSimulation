@@ -117,48 +117,48 @@
 
 			}
 
-			//float EOutDoor = 15000;
-			//float Length = 0.1;
-			//float LTop = 15000;
+			float EOutDoor = 15000;
+			float Length = 0.1;
+			float LTop = 15000;
 
-			//float GetSkylightIllumination(float3 PointPosition, float3 WindowPosition, float WindowWidth, float WindowHeight)
-			//{
+			float GetSkylightIllumination(float3 PointPosition, float3 WindowPosition, float WindowWidth, float WindowHeight)
+			{
 
-			//	float E = 0;
-			//	//float Y = WindowPosition.y - PointPosition.y;
-			//	//float A = Length * Length;
-			//	//float3 firstPosition = float3(WindowPosition.x - 0.5 * WindowWidth, WindowPosition.y, WindowPosition.z - 0.5 * WindowHeight);
-			//	//int widthCount = floor(WindowWidth / Length);
-			//	//int heightCount = floor(WindowHeight / Length);
+				float E = 0;
+				//float Y = WindowPosition.y - PointPosition.y;
+				//float A = Length * Length;
+				//float3 firstPosition = float3(WindowPosition.x - 0.5 * WindowWidth, WindowPosition.y, WindowPosition.z - 0.5 * WindowHeight);
+				//int widthCount = floor(WindowWidth / Length);
+				//int heightCount = floor(WindowHeight / Length);
 
-			//	//for (int i = 0; i < widthCount; i++)
-			//	//{
-			//	//	for (int j = 0; j < heightCount; j++)
-			//	//	{
-			//	//		float3 WindowDotPosition = float3((firstPosition.x + i * Length), (firstPosition.y), (firstPosition.z + j * Length));
-			//	//        float R = distance(WindowDotPosition, PointPosition);
-			//	//		float cos = Y / R;
-			//	//		float L = 0.3333 * (1 + 2 * cos) * LTop;
-			//	//		E = E + LTop * A * cos * cos / (R * R) ;
-			//	//	}
-			//	//}
+				//for (int i = 0; i < widthCount; i++)
+				//{
+				//	for (int j = 0; j < heightCount; j++)
+				//	{
+				//		float3 WindowDotPosition = float3((firstPosition.x + i * Length), (firstPosition.y), (firstPosition.z + j * Length));
+				//        float R = distance(WindowDotPosition, PointPosition);
+				//		float cos = Y / R;
+				//		float L = 0.3333 * (1 + 2 * cos) * LTop;
+				//		E = E + LTop * A * cos * cos / (R * R) ;
+				//	}
+				//}
 
-			//	float3 firstPosition = float3(WindowPosition.x - 0.5 * WindowWidth, WindowPosition.y, WindowPosition.z);
-			//	fixed widthCount = WindowWidth / Length;
-			//	fixed i = 0;
-			//	for (i = 0; i < widthCount; i++)
-			//	{
-			//	//	float3 WindowDotPosition = float3((firstPosition.x + i * Length), firstPosition.y, firstPosition.z);
-			//	//	float R = distance(WindowDotPosition, PointPosition);
-			//	//    float cos = (WindowPosition.y - PointPosition.y) / R;
-			//	//    float L = 0.3333 * (1 + 2 * cos) * LTop;
-			//    	E = E + 0.1 ;
-			//	}
+				float3 firstPosition = float3(WindowPosition.x - 0.5 * WindowWidth, WindowPosition.y, WindowPosition.z);
+				fixed widthCount = WindowWidth / Length;
+				fixed i = 0;
+				for (i = 0; i < widthCount; i++)
+				{
+				//	float3 WindowDotPosition = float3((firstPosition.x + i * Length), firstPosition.y, firstPosition.z);
+				//	float R = distance(WindowDotPosition, PointPosition);
+				//    float cos = (WindowPosition.y - PointPosition.y) / R;
+				//    float L = 0.3333 * (1 + 2 * cos) * LTop;
+			    	E = E + 0.1 ;
+				}
 
 
 
-			//	return E ;
-			//}
+				return E ;
+			}
 
 
 			float GetAngle(float a, float b, float c)
@@ -167,50 +167,50 @@
 				return acos(CosC);
 			}
 
-			//float GetSkylightFactor2(float3 PointPosition, float3 WindowPosition, float WindowWidth, float WindowHeight)
-			//{
-			//	if (WindowWidth <= 0)
-			//	{
-			//		return 0;
-			//	}
-			//	float3 A = float3((WindowPosition.x - 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z - 0.5*WindowHeight));
-			//	float3 B = float3((WindowPosition.x + 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z - 0.5*WindowHeight));
-			//	float3 C = float3((WindowPosition.x + 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z + 0.5*WindowHeight));
-			//	float3 D = float3((WindowPosition.x - 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z + 0.5*WindowHeight));
+			float GetSkylightFactor2(float3 PointPosition, float3 WindowPosition, float WindowWidth, float WindowHeight)
+			{
+				if (WindowWidth <= 0)
+				{
+					return 0;
+				}
+				float3 A = float3((WindowPosition.x - 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z - 0.5*WindowHeight));
+				float3 B = float3((WindowPosition.x + 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z - 0.5*WindowHeight));
+				float3 C = float3((WindowPosition.x + 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z + 0.5*WindowHeight));
+				float3 D = float3((WindowPosition.x - 0.5 * WindowWidth), WindowPosition.y, (WindowPosition.z + 0.5*WindowHeight));
 
-			//	//分别计算9条棱的长度;
-			//	float OA = distance(PointPosition, A);
-			//	float OB = distance(PointPosition, B);
-			//	float OC = distance(PointPosition, C);
-			//	float OD = distance(PointPosition, D);
-			//	float AB = distance(A, B);
-			//	float BC = distance(B, C);
-			//	float CD = distance(C, D);
-			//	float AD = distance(A, D);
-			//	float AC = distance(A, C);
+				//分别计算9条棱的长度;
+				float OA = distance(PointPosition, A);
+				float OB = distance(PointPosition, B);
+				float OC = distance(PointPosition, C);
+				float OD = distance(PointPosition, D);
+				float AB = distance(A, B);
+				float BC = distance(B, C);
+				float CD = distance(C, D);
+				float AD = distance(A, D);
+				float AC = distance(A, C);
 
-			//	float AOB = GetAngle(OA, OB, AB);
-			//	float BOC = GetAngle(OB, OC, BC);
-			//	float AOC = GetAngle(OA, OC, AC);
+				float AOB = GetAngle(OA, OB, AB);
+				float BOC = GetAngle(OB, OC, BC);
+				float AOC = GetAngle(OA, OC, AC);
 
-			//	float AOD = GetAngle(OA, OD, AD);
-			//	float COD = GetAngle(OC, OD, CD);
+				float AOD = GetAngle(OA, OD, AD);
+				float COD = GetAngle(OC, OD, CD);
 
-			//	float s1 = 0.5 * (AOB + BOC + AOC);
-			//	float s2 = 0.5 * (AOD + COD + AOC);
-			//	float Omiga1 = atan(sqrt(tan(s1 / 2)*tan(s1 / 2 - AOB / 2)*tan(s1 / 2 - BOC / 2)*tan(s1 / 2 - AOC / 2))) * 4;
-			//	float Omiga2 = atan(sqrt(tan(s2 / 2)*tan(s2 / 2 - AOD / 2)*tan(s2 / 2 - COD / 2)*tan(s2 / 2 - AOC / 2))) * 4;
-			//	float Omiga = Omiga1 + Omiga2;
+				float s1 = 0.5 * (AOB + BOC + AOC);
+				float s2 = 0.5 * (AOD + COD + AOC);
+				float Omiga1 = atan(sqrt(tan(s1 / 2)*tan(s1 / 2 - AOB / 2)*tan(s1 / 2 - BOC / 2)*tan(s1 / 2 - AOC / 2))) * 4;
+				float Omiga2 = atan(sqrt(tan(s2 / 2)*tan(s2 / 2 - AOD / 2)*tan(s2 / 2 - COD / 2)*tan(s2 / 2 - AOC / 2))) * 4;
+				float Omiga = Omiga1 + Omiga2;
 
-			//	float LTop = 200;
-			//	float Y = WindowPosition.y - PointPosition.y;
-			//	float R = distance(WindowPosition, PointPosition);
-			//	float cos = Y / R;
-			//	float L = 0.3333 * (1 + 2 * cos) * LTop;
+				float LTop = 200;
+				float Y = WindowPosition.y - PointPosition.y;
+				float R = distance(WindowPosition, PointPosition);
+				float cos = Y / R;
+				float L = 0.3333 * (1 + 2 * cos) * LTop;
 
-			//	return 0.3*Omiga*cos;
+				return 0.3*Omiga*cos;
 
-			//}
+			}
 
 			//灯光的点照度计算
 			float GetLightIllumination(float3 PointPosition, float3 LampPosition, float3 LampAngle, float LampIntensity, float LampSpotAngle, int FixedAxis)
@@ -280,10 +280,10 @@
 				fixed Factor = 0;
 				fixed Offset = 0;
 				int Index = 0;
-				for (Index = 0; Index < _WindowsCount; Index++)
-				{
-					Factor = Factor + GetSideWindowFactor(i.worldPos, _WindowPositionArray[Index], _WindowWidthArray[Index], _WindowHeightArray[Index]);
-				}
+				//for (Index = 0; Index < _WindowsCount; Index++)
+				//{
+				//	Factor = Factor + GetSideWindowFactor(i.worldPos, _WindowPositionArray[Index], _WindowWidthArray[Index], _WindowHeightArray[Index]);
+				//}
 
 				//for (Index = 0; Index < _SkylightsCount; Index++)
 				//{
