@@ -144,7 +144,7 @@ namespace LightingExperiment
 						//黑板灯
 
 						for (int i = 0; i < boardLights.Count; i++) {
-							LampAngleArray [LampCount + i] = boardLights [i].transform.transform.forward.normalized;
+							LampAngleArray [LampCount + i] = boardLights [i].transform.forward.normalized;
 							LampPositionArray [LampCount + i] = boardLights [i].transform.position;
 							LampIntensity [LampCount + i] = boardLights [i].intensity / LightOutput.OutdoorIllumination;
 							LampSpotAngle [LampCount + i] = boardLights [i].transform.GetComponent<Light> ().spotAngle;

@@ -92,7 +92,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1789061639602690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0afb529cad2bbbe428555d19266995d8, type: 3}
+  m_Script: {fileID: 11500000, guid: b3eba9398825d4112992eba67298e5eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sideWindowPositionArray:
@@ -129,66 +129,16 @@ MonoBehaviour:
   - 0
   - 0
   sideWindowsCount: 0
-  skylightPositionArray:
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  skylightWidthArray:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  skylightHeightArray:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  skylightsCount: 0
-  lightManager: {fileID: 0}
-  boardLightsManager: {fileID: 0}
-  LabelPerfab: {fileID: 1945296507722390, guid: 2f33db26ca685fb46b34b56122f2fd66,
-    type: 2}
-  gridDisplays:
-  - RowCount: 12
-    ColumnCount: 8
-    GridDistance: 1
-    FirstPointPosition: {x: -5.6, y: -1.8, z: -3.45}
-  - RowCount: 6
-    ColumnCount: 4
-    GridDistance: 2
-    FirstPointPosition: {x: -5, y: -1.8, z: -3.1}
-  - RowCount: 5
-    ColumnCount: 4
-    GridDistance: 2.5
-    FirstPointPosition: {x: -5.1, y: -1.8, z: -3.75}
+  boardLights: []
+  LabelPerfab: {fileID: 0}
+  gridDisplays: []
   dropdown: {fileID: 0}
   DaylightFactorMean: 0
   illuminationMean: 0
   DaylightFactorMin: 0
-  StaticGraphValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  firstPosition: {x: 0, y: -1.8, z: 4.4}
-  StepLength: -1
-  dataOutput: {fileID: 0}
-  chartUpdate: {fileID: 0}
+  StaticGraphValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  firstPosition: {x: 0, y: 0, z: 0}
+  StepLength: 0.4
   PercentPart1: 0
   PercentPart2: 0
   onValueChange:
