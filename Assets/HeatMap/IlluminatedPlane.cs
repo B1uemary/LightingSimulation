@@ -120,8 +120,28 @@ namespace LightingExperiment
 					boardLights.Add (lights.GetChild (i).GetComponent<Light> ());
 				}
 
+				for (int i = 0; i < boardLights.Count; i++) {
+					LampAngleArray [LampCount + i] = boardLights [i].transform.forward.normalized;
+					LampPositionArray [LampCount + i] = boardLights [i].transform.position;
+					LampIntensity [LampCount + i] = boardLights [i].intensity / LightOutput.OutdoorIllumination;
+					LampSpotAngle [LampCount + i] = boardLights [i].transform.GetComponent<Light> ().spotAngle;
+				}
 
+			}
 
+			private void Update ()
+			{
+				Test ();
+			}
+
+			void Test ()
+			{
+				PlaneMaterial.SetVectorArray ("_LampAngleArray", LampAngleArray);
+				PlaneMaterial.SetVectorArray ("_LampPositionArray", LampPositionArray);
+				PlaneMaterial.SetFloatArray ("_LampIntensity", LampIntensity);//传入的变量是spotlight的intensity乘以了一个系数
+				PlaneMaterial.SetFloatArray ("_LampSpotAngle", LampSpotAngle);
+				PlaneMaterial.SetInt ("_LampCount", 10);
+				PlaneMaterial.SetInt ("_FixedAxis", 1);
 			}
 
 			//更新参数接口

@@ -294,7 +294,9 @@
 				{
 					Factor = Factor + GetLightIllumination(i.worldPos, _LampPositionArray[Index], _LampAngleArray[Index], _LampIntensity[Index], _LampSpotAngle[Index], _FixedAxis);
 				}
-
+                
+             
+                
 				//得到等系数线
 				if (_Range != 0)
 				{					
@@ -337,7 +339,7 @@
 				fixed4 ColorPoint; //= lerp(_ColdColor, _Color, clamp(Factor, 0, 1.5)* _Intensity);
 
 				fixed lerpFactor = clamp(Factor * _Intensity, 0, 1);
-
+                
 				if (lerpFactor < 0.5) 
 				{
 					ColorPoint = lerp(_BlueColor, _GreenColor, 2 * lerpFactor);
