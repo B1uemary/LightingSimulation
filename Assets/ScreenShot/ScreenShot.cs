@@ -29,12 +29,7 @@ public class ScreenShot : MonoBehaviour
 
 	private void Start ()
 	{
-		sceneShotCamera.enabled = false;
 
-		transformRefs = new List<Transform> ();
-		for (int i = 0; i < transform.parent.childCount - 1; i++) {
-			transformRefs.Add (transform.parent.GetChild (i + 1));
-		}
 	}
 	//按下截图
 	public void ScreenShotPress ()
@@ -134,7 +129,11 @@ public class ScreenShot : MonoBehaviour
         sceneShotCamera3.enabled = true;
 
         List<Camera> cameraList = new List<Camera>();
-		List<Texture2D> sceneImages = new List<Texture2D> ();
+        cameraList.Add(sceneShotCamera);
+        cameraList.Add(sceneShotCamera2);
+        cameraList.Add(sceneShotCamera3);
+
+        List<Texture2D> sceneImages = new List<Texture2D> ();
 
 		for (int i = 0; i < transformRefs.Count; i++) {
             sceneShotCamera = cameraList[i];
@@ -152,7 +151,7 @@ public class ScreenShot : MonoBehaviour
 			byte [] bytes = sceneImages [i].EncodeToPNG ();
 			string filename = Application.dataPath + string.Format ("/Screenshot{0}.png", i);
 			System.IO.File.WriteAllBytes (filename, bytes);
-			//Debug.Log (string.Format ("截屏了一张照片: {0}", filename));
+			Debug.Log (string.Format ("截屏了一张照片: {0}", filename));
 
 		}
 
