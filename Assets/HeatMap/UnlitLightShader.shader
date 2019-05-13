@@ -289,7 +289,11 @@
 				//{
 				//	Factor = Factor + GetSkylightFactor2(i.worldPos, _SkylightPositionArray[Index], _SkylightWidthArray[Index], _SkylightHeightArray[Index]);
 				//}
-
+                //_LampCount = 1 ;
+                //_LampPositionArray[0] = float3(6.2, -0.1,0.1);
+                //_LampAngleArray[0] = float3(0,-1,0);
+                //_LampIntensity[0] = 0.2;
+                //_LampSpotAngle[0] = 179;
 				for (Index = 0; Index < _LampCount; Index++)
 				{
 					Factor = Factor + GetLightIllumination(i.worldPos, _LampPositionArray[Index], _LampAngleArray[Index], _LampIntensity[Index], _LampSpotAngle[Index], _FixedAxis);

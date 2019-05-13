@@ -114,7 +114,7 @@ namespace LightingExperiment
 
 
 				Transform lights = GameObject.Find ("Lights").transform;
-				LampCount = lights.childCount;
+				LampCount = 0;
 
 				for (int i = 0; i < lights.childCount; i++) {
 					boardLights.Add (lights.GetChild (i).GetComponent<Light> ());
@@ -126,7 +126,7 @@ namespace LightingExperiment
 					LampIntensity [LampCount + i] = boardLights [i].intensity / LightOutput.OutdoorIllumination;
 					LampSpotAngle [LampCount + i] = boardLights [i].transform.GetComponent<Light> ().spotAngle;
 				}
-
+				LampCount = lights.childCount;
 			}
 
 			private void Update ()
@@ -136,11 +136,25 @@ namespace LightingExperiment
 
 			void Test ()
 			{
+				//LampPositionArray [0] = new Vector4 (6.2f, -0.1f, 0.1f, 0);
+				//LampAngleArray [0] = new Vector4 (0, -1, 0, 0);
+				//LampIntensity [0] = 0.2f;
+				//LampSpotAngle [0] = 179;
+				//Debug.Log (LampPositionArray [0]);
+				//Debug.Log (LampAngleArray [0]);
+				//Debug.Log (LampIntensity [0]);
+				//Debug.Log (LampSpotAngle [0]);
+
+				LampAngleArray [0] = boardLights [0].transform.forward.normalized;
+				LampPositionArray [0] = boardLights [0].transform.position;
+				LampIntensity [0] = boardLights [0].intensity / LightOutput.OutdoorIllumination;
+				LampSpotAngle [0] = boardLights [0].transform.GetComponent<Light> ().spotAngle;
+
 				PlaneMaterial.SetVectorArray ("_LampAngleArray", LampAngleArray);
 				PlaneMaterial.SetVectorArray ("_LampPositionArray", LampPositionArray);
 				PlaneMaterial.SetFloatArray ("_LampIntensity", LampIntensity);//传入的变量是spotlight的intensity乘以了一个系数
 				PlaneMaterial.SetFloatArray ("_LampSpotAngle", LampSpotAngle);
-				PlaneMaterial.SetInt ("_LampCount", 10);
+				PlaneMaterial.SetInt ("_LampCount", 1);
 				PlaneMaterial.SetInt ("_FixedAxis", 1);
 			}
 

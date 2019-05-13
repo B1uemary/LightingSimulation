@@ -24,18 +24,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - E: 0.78
-    - _IfFloor: 0
     - _Intensity: 10
     - _LightIntensityFactor: 0.02
     - _Mode: 1
-    - _PositionX: 0.09
     - _Range: 0.01
-    - _WindowHeight: 2.43
-    - _WindowWidth: 4.5
     m_Colors:
     - _BlueColor: {r: 0, g: 0, b: 1, a: 1}
-    - _ColdColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0.8490566, g: 0.19245288, b: 0, a: 0}
     - _GreenColor: {r: 0, g: 1, b: 0, a: 1}
     - _RedColor: {r: 1, g: 0, b: 0, a: 1}
-    - _WindowPosition: {r: 0, g: -0.92, b: 4.37, a: 1}

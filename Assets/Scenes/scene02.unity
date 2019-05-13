@@ -3159,7 +3159,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1618890790}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.21976428
+  m_Size: 0.24877606
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -16249,9 +16249,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3.61
-  m_SpotAngle: 75
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -22865,9 +22865,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3
-  m_SpotAngle: 39
+  m_Intensity: 3000
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -22898,13 +22898,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 825739015}
-  m_LocalRotation: {x: 0.70222586, y: 0.14694384, z: 0.19204284, w: 0.66963124}
-  m_LocalPosition: {x: 0.61, y: 0.903, z: 0.068}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -2.7, y: 0.5, z: 0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1166040299}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 117.868, y: -86.39099, z: -82.625}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &825739018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25956,9 +25956,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 4
-  m_Range: 5.31
-  m_SpotAngle: 63
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -30457,9 +30457,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3
-  m_SpotAngle: 39
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -35524,9 +35524,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3.61
-  m_SpotAngle: 82
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -41816,9 +41816,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3
-  m_SpotAngle: 39
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -47393,9 +47393,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3.61
-  m_SpotAngle: 39
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -49427,9 +49427,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 6
-  m_Range: 3.5
-  m_SpotAngle: 39
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -51256,9 +51256,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3
-  m_SpotAngle: 39
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -54267,9 +54267,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 4
-  m_Range: 3.62
-  m_SpotAngle: 68
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -58977,9 +58977,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 5
-  m_Range: 3
-  m_SpotAngle: 39
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -59284,9 +59284,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0.8403329, b: 0.7122642, a: 1}
-  m_Intensity: 4.97
-  m_Range: 3.61
-  m_SpotAngle: 57
+  m_Intensity: 3
+  m_Range: 4.16
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
