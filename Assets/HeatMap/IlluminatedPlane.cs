@@ -88,7 +88,13 @@ namespace LightingExperiment
 			public Vector3 firstPosition;
 			public float StepLength = 0.4f;
 
-			[Header ("数据输出")]
+            [Header("监视窗户")]
+            public WindowsSwitch windowsswitch;
+            public float x;
+            public float y;
+            public float z;
+
+            [Header ("数据输出")]
 			//public DataOutput dataOutput;
 			//public ChartUpdate chartUpdate;
 			[HideInInspector]
@@ -139,17 +145,31 @@ namespace LightingExperiment
 			public void UpdatePlanePara ()
 			{
 				if (PlaneMaterial != null) {
-					//侧窗
+                    //侧窗
 
-					Debug.Log ("Triiger!!");
+                    if (windowsswitch.go1.gameObject.activeSelf == true) {
+                        sideWindowPositionArray[0] = new Vector4(x, y, z, 0.0f);
+                        sideWindowWidthArray[0] = 1;
+                        sideWindowHeightArray[0] = 1;
+                        sideWindowsCount = 1;
+                    }
+                    else
+                    {
+                        sideWindowsCount = 0;
+                    }
 
-					PlaneMaterial.SetVectorArray ("_WindowPositionArray", sideWindowPositionArray);
+
+                    PlaneMaterial.SetVectorArray ("_WindowPositionArray", sideWindowPositionArray);
+                    Debug.Log(sideWindowPositionArray[0]);
 					PlaneMaterial.SetFloatArray ("_WindowWidthArray", sideWindowWidthArray);
-					PlaneMaterial.SetFloatArray ("_WindowHeightArray", sideWindowHeightArray);
-					PlaneMaterial.SetInt ("_WindowsCount", sideWindowsCount);
+                    Debug.Log(sideWindowWidthArray[0]);
+                    PlaneMaterial.SetFloatArray ("_WindowHeightArray", sideWindowHeightArray);
+                    Debug.Log(sideWindowHeightArray[0]);
+                    PlaneMaterial.SetInt ("_WindowsCount", sideWindowsCount);
+                    Debug.Log(sideWindowsCount);
 
-
-					if (firstMode) {
+                    //黑板灯
+                    if (firstMode) {
 
 
 						for (int i = 0; i < boardLights.Count; i++) {
@@ -259,20 +279,26 @@ namespace LightingExperiment
 							DaylightFactorMin = Factor;//计算最小照度
 						}
 
-						//计算各个部分占的百分比
-						TotalCount++;
-						if (Illumination < 200) {
-							CountPart1++;
-						} else if (Illumination < 500) {
-							CountPart2++;
-						}
-						if (firstMode) {
-							CurrentLabel.GetComponentInChildren<Text> ().text = ((int)Illumination).ToString ();
-						} else {
-							CurrentLabel.GetComponentInChildren<Text> ().text = Factor.ToString ("#0.##");
-						}
+                        //计算各个部分占的百分比
+                        TotalCount++;
+                        if (Illumination < 200)
+                        {
+                            CountPart1++;
+                        }
+                        else if (Illumination < 500)
+                        {
+                            CountPart2++;
+                        }
+                        if (firstMode)
+                        {
+                            CurrentLabel.GetComponentInChildren<Text>().text = ((int)Illumination).ToString();
+                        }
+                        else
+                        {
+                            CurrentLabel.GetComponentInChildren<Text>().text = Factor.ToString("#0.##");
+                        }
 
-					}
+                    }
 
 				}
 
@@ -283,25 +309,25 @@ namespace LightingExperiment
 				//折线图
 				//dataOutput.ClearStaticGragh ();
 				//chartUpdate.ClearStaticGragh ();//清空第二张折线图
-				for (int j = 0; j < sideWindowsCount; j++) {
-					for (int i = 0; i < 25; i++) {
-						Factor = 0;
-						for (int Index = 0; Index < sideWindowsCount; Index++) {
-							Factor = Factor + LightOutput.GetPointDaylightFactor (new Vector3 (sideWindowPositionArray [j].x, firstPosition.y, firstPosition.z) + new Vector3 (0, 0, i * StepLength), sideWindowPositionArray [Index], sideWindowWidthArray [Index], sideWindowHeightArray [Index]);
-						}
-						//for (int Index = 0; Index < skylightsCount; Index++)
-						//{
-						//    Factor = Factor + LightOutput.GetSkylightPointFactor2(new Vector3(sideWindowPositionArray[j].x, firstPosition.y, firstPosition.z) + new Vector3(0, 0, i * StepLength), skylightPositionArray[Index], skylightWidthArray[Index], skylightHeightArray[Index]);
-						//}
-						for (int Index = 0; Index < LampCount; Index++) {
-							Illumination += LightOutput.GetPointIllumination (new Vector3 (sideWindowPositionArray [j].x, firstPosition.y, firstPosition.z) + new Vector3 (0, 0, i * StepLength), LampPositionArray [Index] * LightOutput.OutdoorIllumination, LampAngleArray [Index], LampIntensity [Index], LampSpotAngle [Index], 'y');
-						}
-						Illumination = Factor * LightOutput.OutdoorIllumination;
-						StaticGraphValues [i] = (int)Illumination;
-					}
-					//dataOutput.OutputStaticGragh (StaticGraphValues, (j + 1).ToString ());
-					//chartUpdate.OutputStaticGragh (StaticGraphValues, (j + 1).ToString ()); ;//更新第二张折线图
-				}
+				//for (int j = 0; j < sideWindowsCount; j++) {
+				//	for (int i = 0; i < 25; i++) {
+				//		Factor = 0;
+				//		for (int Index = 0; Index < sideWindowsCount; Index++) {
+				//			Factor = Factor + LightOutput.GetPointDaylightFactor (new Vector3 (sideWindowPositionArray [j].x, firstPosition.y, firstPosition.z) + new Vector3 (0, 0, i * StepLength), sideWindowPositionArray [Index], sideWindowWidthArray [Index], sideWindowHeightArray [Index]);
+				//		}
+				//		//for (int Index = 0; Index < skylightsCount; Index++)
+				//		//{
+				//		//    Factor = Factor + LightOutput.GetSkylightPointFactor2(new Vector3(sideWindowPositionArray[j].x, firstPosition.y, firstPosition.z) + new Vector3(0, 0, i * StepLength), skylightPositionArray[Index], skylightWidthArray[Index], skylightHeightArray[Index]);
+				//		//}
+				//		for (int Index = 0; Index < LampCount; Index++) {
+				//			Illumination += LightOutput.GetPointIllumination (new Vector3 (sideWindowPositionArray [j].x, firstPosition.y, firstPosition.z) + new Vector3 (0, 0, i * StepLength), LampPositionArray [Index] * LightOutput.OutdoorIllumination, LampAngleArray [Index], LampIntensity [Index], LampSpotAngle [Index], 'y');
+				//		}
+				//		Illumination = Factor * LightOutput.OutdoorIllumination;
+				//		StaticGraphValues [i] = (int)Illumination;
+				//	}
+				//	//dataOutput.OutputStaticGragh (StaticGraphValues, (j + 1).ToString ());
+				//	//chartUpdate.OutputStaticGragh (StaticGraphValues, (j + 1).ToString ()); ;//更新第二张折线图
+				//}
 
 			}
 

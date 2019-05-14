@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class WindowsSwitch : MonoBehaviour
 {
+    public Transform go1;
+    public Transform go2;
 
-	public void Switch ()
+    void Start()
+    {
+        go1 = transform.GetChild(0);
+        go2 = transform.GetChild(1);
+    }
+
+
+    public void Switch ()
 	{
-		Transform go1 = transform.GetChild (0);
-		Transform go2 = transform.GetChild (1);
+	
 		if (go1 == null || go2 == null) { return; }
 		if (go1.gameObject.activeSelf == false) {
 			go1.gameObject.SetActive (true);

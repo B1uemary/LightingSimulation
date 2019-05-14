@@ -3159,7 +3159,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1618890790}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3602901
+  m_Size: 0.28232095
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14344,6 +14344,10 @@ MonoBehaviour:
   StaticGraphValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   firstPosition: {x: 0, y: 0, z: 0}
   StepLength: 0.4
+  windowsswitch: {fileID: 878011641}
+  x: 8
+  y: -0.5
+  z: 5
   PercentPart1: 0
   PercentPart2: 0
   onValueChange:
@@ -24091,6 +24095,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30071f1bc802e4bb39e1fef77348def5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  go1: {fileID: 0}
+  go2: {fileID: 0}
 --- !u!65 &878011642
 BoxCollider:
   m_ObjectHideFlags: 0

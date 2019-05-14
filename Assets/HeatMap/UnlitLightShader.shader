@@ -280,10 +280,10 @@
 				fixed Factor = 0;
 				fixed Offset = 0;
 				int Index = 0;
-				//for (Index = 0; Index < _WindowsCount; Index++)
-				//{
-				//	Factor = Factor + GetSideWindowFactor(i.worldPos, _WindowPositionArray[Index], _WindowWidthArray[Index], _WindowHeightArray[Index]);
-				//}
+				for (Index = 0; Index < _WindowsCount; Index++)
+				{
+					Factor = Factor + GetSideWindowFactor(i.worldPos, _WindowPositionArray[Index], _WindowWidthArray[Index], _WindowHeightArray[Index]);
+				}
 
 				//for (Index = 0; Index < _SkylightsCount; Index++)
 				//{
