@@ -120,43 +120,20 @@ namespace LightingExperiment
 					boardLights.Add (lights.GetChild (i).GetComponent<Light> ());
 				}
 
-				for (int i = 0; i < boardLights.Count; i++) {
-					LampAngleArray [LampCount + i] = boardLights [i].transform.forward.normalized;
-					LampPositionArray [LampCount + i] = boardLights [i].transform.position;
-					LampIntensity [LampCount + i] = boardLights [i].intensity / LightOutput.OutdoorIllumination;
-					LampSpotAngle [LampCount + i] = boardLights [i].transform.GetComponent<Light> ().spotAngle;
-				}
+				//for (int i = 0; i < boardLights.Count; i++) {
+				//	LampAngleArray [LampCount + i] = boardLights [i].transform.forward.normalized;
+				//	LampPositionArray [LampCount + i] = boardLights [i].transform.position;
+				//	LampIntensity [LampCount + i] = boardLights [i].intensity / LightOutput.OutdoorIllumination;
+				//	LampSpotAngle [LampCount + i] = boardLights [i].transform.GetComponent<Light> ().spotAngle;
+				//}
 				LampCount = lights.childCount;
 			}
 
 			private void Update ()
 			{
-				Test ();
+
 			}
 
-			void Test ()
-			{
-				//LampPositionArray [0] = new Vector4 (6.2f, -0.1f, 0.1f, 0);
-				//LampAngleArray [0] = new Vector4 (0, -1, 0, 0);
-				//LampIntensity [0] = 0.2f;
-				//LampSpotAngle [0] = 179;
-				//Debug.Log (LampPositionArray [0]);
-				//Debug.Log (LampAngleArray [0]);
-				//Debug.Log (LampIntensity [0]);
-				//Debug.Log (LampSpotAngle [0]);
-
-				LampAngleArray [0] = boardLights [0].transform.forward.normalized;
-				LampPositionArray [0] = boardLights [0].transform.position;
-				LampIntensity [0] = boardLights [0].intensity / LightOutput.OutdoorIllumination;
-				LampSpotAngle [0] = boardLights [0].transform.GetComponent<Light> ().spotAngle;
-
-				PlaneMaterial.SetVectorArray ("_LampAngleArray", LampAngleArray);
-				PlaneMaterial.SetVectorArray ("_LampPositionArray", LampPositionArray);
-				PlaneMaterial.SetFloatArray ("_LampIntensity", LampIntensity);//传入的变量是spotlight的intensity乘以了一个系数
-				PlaneMaterial.SetFloatArray ("_LampSpotAngle", LampSpotAngle);
-				PlaneMaterial.SetInt ("_LampCount", 1);
-				PlaneMaterial.SetInt ("_FixedAxis", 1);
-			}
 
 			//更新参数接口
 			public void UpdatePlanePara ()
@@ -170,36 +147,21 @@ namespace LightingExperiment
 					PlaneMaterial.SetFloatArray ("_WindowWidthArray", sideWindowWidthArray);
 					PlaneMaterial.SetFloatArray ("_WindowHeightArray", sideWindowHeightArray);
 					PlaneMaterial.SetInt ("_WindowsCount", sideWindowsCount);
-					//天窗
-					//PlaneMaterial.SetVectorArray("_SkylightPositionArray", skylightPositionArray);
-					//PlaneMaterial.SetFloatArray("_SkylightWidthArray", skylightWidthArray);
-					//PlaneMaterial.SetFloatArray("_SkylightHeightArray", skylightHeightArray);
-					//PlaneMaterial.SetInt("_SkylightsCount", skylightsCount);
+
 
 					if (firstMode) {
-						////顶灯
-						//List<ceilingLight> ceilingLight = lightManager.ceilingLights;
-						//LampCount = ceilingLight.Count;
-						//MyDebug.Add("顶灯的灯光个数：" + LampCount);
-						////得到顶灯的各属性
-						//for (int i = 0; i < ceilingLight.Count; i++)
-						//{
-						//    LampAngleArray[i] = ceilingLight[i].transform.GetChild(0).transform.forward.normalized;
-						//    LampPositionArray[i] = ceilingLight[i].transform.position;
-						//    //shader中的公式是计算照度的，除以这个系数就可以转换为对应的采光系数，因为shader是根据采光系数显示的。
-						//    LampIntensity[i] = ceilingLight[i].Intensity/LightOutput.OutdoorIllumination;
-						//    LampSpotAngle[i] = ceilingLight[i].transform.GetChild(0).GetComponent<Light>().spotAngle;
-						//}
 
-						//黑板灯
 
 						for (int i = 0; i < boardLights.Count; i++) {
-							LampAngleArray [LampCount + i] = boardLights [i].transform.forward.normalized;
-							LampPositionArray [LampCount + i] = boardLights [i].transform.position;
-							LampIntensity [LampCount + i] = boardLights [i].intensity / LightOutput.OutdoorIllumination;
-							LampSpotAngle [LampCount + i] = boardLights [i].transform.GetComponent<Light> ().spotAngle;
+                            if (boardLights[i].enabled) {
+                                LampAngleArray[i] = boardLights[i].transform.forward.normalized;
+                                LampPositionArray[i] = boardLights[i].transform.position;
+                                LampIntensity[i] = 1000 * boardLights[i].intensity / LightOutput.OutdoorIllumination;
+                                LampSpotAngle[i] = boardLights[i].transform.GetComponent<Light>().spotAngle;
+                            }
 						}
 						//LampCount = ceilingLight.Count + boardLights.Count;
+
 					} else {
 						LampCount = 0;
 					}
