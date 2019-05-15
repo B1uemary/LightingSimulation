@@ -12,8 +12,9 @@ namespace LightingExperiment
 	{
 		public class IlluminatedPlane : MonoBehaviour
 		{
-			//用于不同网格显示
-			[System.Serializable]
+            public int openedLight;
+            //用于不同网格显示
+            [System.Serializable]
 			public struct GridDisplay
 			{
 				public int RowCount;
@@ -95,7 +96,7 @@ namespace LightingExperiment
             public float z;
 
             [Header ("数据输出")]
-			//public DataOutput dataOutput;
+			public DataOutput dataOutput;
 			//public ChartUpdate chartUpdate;
 			[HideInInspector]
 			public float PercentPart1 = 0;
@@ -194,9 +195,17 @@ namespace LightingExperiment
 					PlaneMaterial.SetInt ("_FixedAxis", 1);
 				}
 
+                openedLight = 0;
+                for (int i = 0; i < boardLights.Count; i++)
+                {
+                    if (boardLights[i].enabled)
+                    {
+                        ++openedLight;
+                    }
+                }
 
-				UpdateLabels ();
-				//dataOutpuut.UpdateData ();
+                UpdateLabels ();
+				dataOutput.UpdateData ();
 			}
 
 			//更换标签 2*2或其它

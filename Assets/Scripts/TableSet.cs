@@ -8,11 +8,7 @@ namespace LightingExperiment
     /// <summary>
     /// 设置结果表格中的数据
     /// </summary>
-
-
-
-
-    public class TableSetting : MonoBehaviour
+    public class TableSet : MonoBehaviour
     {
         [Header("房间指标")]
         public InputField RCRInputField;
@@ -34,6 +30,9 @@ namespace LightingExperiment
         public InputField skylightsAeraInputField;
         public InputField skylightsWidthInputField;
         public InputField skylightsHeightInputField;
+
+        public InputField LightCountInputField;
+
 
         [Header("计算指标")]
         public InputField windowGroundRatioInputField;
@@ -121,6 +120,14 @@ namespace LightingExperiment
             set
             {
                 sideWindowsHeightInputField.text = (1000 * value).ToString();
+            }
+        }
+
+        public float LightCount
+        {
+            set
+            {
+                LightCountInputField.text = value.ToString("#0.##");
             }
         }
 
@@ -247,6 +254,8 @@ namespace LightingExperiment
             tableData.Add("sideWindowsAera", sideWindowsAeraInputField.text);
             tableData.Add("sideWindowsWidth", sideWindowsWidthInputField.text);
             tableData.Add("sideWindowsHeight", sideWindowsHeightInputField.text);
+            //灯光数据
+            tableData.Add("LightCount", LightCountInputField.text);
             //天窗数据
             //tableData.Add("skylightsLocation", skylightsLocationInputField.text);
             //tableData.Add("skylightsNumber", skylightsNumberInputField.text);
