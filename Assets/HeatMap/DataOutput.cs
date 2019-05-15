@@ -135,7 +135,7 @@ namespace LightingExperiment
             if (isIllu)
             {
                 meanText.text = (illuminatedPlane.illuminationMean).ToString("#0.##");
-                Debug.Log(illuminatedPlane.illuminationMean);
+                //Debug.Log(illuminatedPlane.illuminationMean);
             }
             else
             {
@@ -147,6 +147,7 @@ namespace LightingExperiment
         public void SwitchMean(bool isIllumination)
         {
             isIllu = isIllumination;
+            //Debug.Log(isIllu);
             if (isIllumination)
             {
                 meanText.text = (illuminatedPlane.illuminationMean).ToString("#0.##");

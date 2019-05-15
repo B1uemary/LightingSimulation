@@ -109,8 +109,12 @@ namespace LightingExperiment
 			private Material PlaneMaterial;
 			//照度值或者采光系数
 			private bool firstMode = true;
-			// Use this for initialization
-			void Start ()
+
+            private Transform lights;
+
+
+            // Use this for initialization
+            void Start ()
 			{
 				PlaneMaterial = this.transform.GetComponent<Renderer> ().material;
 				//初始化照度图上的标签
@@ -120,7 +124,7 @@ namespace LightingExperiment
 				sideWindowsCount = 0;
 
 
-				Transform lights = GameObject.Find ("Lights").transform;
+				lights = GameObject.Find ("Lights").transform;
 				LampCount = 0;
 
 				for (int i = 0; i < lights.childCount; i++) {
@@ -133,7 +137,7 @@ namespace LightingExperiment
 				//	LampIntensity [LampCount + i] = boardLights [i].intensity / LightOutput.OutdoorIllumination;
 				//	LampSpotAngle [LampCount + i] = boardLights [i].transform.GetComponent<Light> ().spotAngle;
 				//}
-				LampCount = lights.childCount;
+				//LampCount = lights.childCount;
 			}
 
 			private void Update ()
@@ -145,7 +149,8 @@ namespace LightingExperiment
 			//更新参数接口
 			public void UpdatePlanePara ()
 			{
-				if (PlaneMaterial != null) {
+                //Debug.Log(firstMode);
+                if (PlaneMaterial != null) {
                     //侧窗
 
                     if (windowsswitch.go1.gameObject.activeSelf == true) {
@@ -161,19 +166,19 @@ namespace LightingExperiment
 
 
                     PlaneMaterial.SetVectorArray ("_WindowPositionArray", sideWindowPositionArray);
-                    Debug.Log(sideWindowPositionArray[0]);
+                    //Debug.Log(sideWindowPositionArray[0]);
 					PlaneMaterial.SetFloatArray ("_WindowWidthArray", sideWindowWidthArray);
-                    Debug.Log(sideWindowWidthArray[0]);
+                    //Debug.Log(sideWindowWidthArray[0]);
                     PlaneMaterial.SetFloatArray ("_WindowHeightArray", sideWindowHeightArray);
-                    Debug.Log(sideWindowHeightArray[0]);
+                    //Debug.Log(sideWindowHeightArray[0]);
                     PlaneMaterial.SetInt ("_WindowsCount", sideWindowsCount);
-                    Debug.Log(sideWindowsCount);
+                   // Debug.Log(sideWindowsCount);
 
                     //黑板灯
                     if (firstMode) {
-
-
-						for (int i = 0; i < boardLights.Count; i++) {
+                        LampCount = lights.childCount;
+                        Debug.Log("绘制");
+                        for (int i = 0; i < boardLights.Count; i++) {
                             if (boardLights[i].enabled) {
                                 LampAngleArray[i] = boardLights[i].transform.forward.normalized;
                                 LampPositionArray[i] = boardLights[i].transform.position;
@@ -185,9 +190,11 @@ namespace LightingExperiment
 
 					} else {
 						LampCount = 0;
+                        Debug.Log("不绘制");
 					}
 
 					PlaneMaterial.SetVectorArray ("_LampAngleArray", LampAngleArray);
+                    Debug.Log(LampAngleArray[0]);
 					PlaneMaterial.SetVectorArray ("_LampPositionArray", LampPositionArray);
 					PlaneMaterial.SetFloatArray ("_LampIntensity", LampIntensity);//传入的变量是spotlight的intensity乘以了一个系数
 					PlaneMaterial.SetFloatArray ("_LampSpotAngle", LampSpotAngle);
@@ -237,15 +244,17 @@ namespace LightingExperiment
 				UpdateLabels ();
 			}
 
-			//更改照度值或者采光系数
-			public void SwitchMode (bool mode)
-			{
-				firstMode = mode;
-				UpdatePlanePara ();
-			}
+            //更改照度值或者采光系数
+            public void SwitchMode(bool mode)
+            {
+                firstMode = mode;
+                Debug.Log(firstMode);
+                UpdatePlanePara();
+            }
 
-			//更新标签数值
-			public void UpdateLabels ()
+
+            //更新标签数值
+            public void UpdateLabels ()
 			{
 				GameObject CurrentLabel;
 				float Illumination = 0;

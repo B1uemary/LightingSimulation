@@ -3177,7 +3177,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1618890790}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3049864
+  m_Size: 0.23789664
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13433,7 +13433,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 290083558}
         m_MethodName: SwitchMean
         m_Mode: 6
         m_Arguments:
@@ -14453,7 +14453,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 493189208}
         m_MethodName: SwitchMode
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14462,9 +14462,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 290083558}
         m_MethodName: SwitchMean
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
