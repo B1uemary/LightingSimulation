@@ -229,7 +229,7 @@ public class AmplifyOcclusionBase : MonoBehaviour
 
 	void PerformBlit( CommandBuffer cb, Material mat, int pass )
 	{
-		cb.DrawMesh( m_quadMesh, Matrix4x4.identity, mat, 0, pass );
+		//cb.DrawMesh( m_quadMesh, Matrix4x4.identity, mat, 0, pass );
 	}
 
 	// Render Materials
