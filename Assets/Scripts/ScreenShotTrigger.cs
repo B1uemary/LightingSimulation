@@ -13,13 +13,14 @@ public class ScreenShotTrigger : MonoBehaviour
 	private void Start ()
 	{
 		AddButtonClick ("ScreenShotButton", HandleUnityAction);
+        Debug.Log("相机启动");
 	}
 
 	void HandleUnityAction ()
 	{
-		m_screenShot.GetComponent<ScreenShot> ().CaptureAllScene ();
-
-	}
+        Debug.Log("寻找相机");
+        m_screenShot.GetComponent<ScreenShot> ().CaptureAllScene ();
+    }
 
 
 	public void AddButtonClick (string name, UnityAction callback)
@@ -27,10 +28,13 @@ public class ScreenShotTrigger : MonoBehaviour
 		Button button = GetControl<Button> (name);
 		if (button) {
 			button.onClick.AddListener (callback);
-		} else {
+            Debug.Log("找到按钮");
+        } else {
 			Debug.LogWarning (name + " Not Found");
-		}
-	}
+            Debug.Log("没找到按钮");
+        }
+        
+    }
 
 
 	public T GetControl<T> (string name)

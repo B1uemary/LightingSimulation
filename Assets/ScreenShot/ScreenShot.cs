@@ -20,6 +20,7 @@ public class ScreenShot : MonoBehaviour
 
 	public Sprite ImageOriginSprite;
 
+    public Camera Camera;
 	public Camera sceneShotCamera; //用来截场景中的三张图片
 	public Camera sceneShotCamera2;
 	public Camera sceneShotCamera3;
@@ -124,12 +125,15 @@ public class ScreenShot : MonoBehaviour
 	//获得三张图片
 	public List<Texture2D> CaptureAllScene ()
 	{
-		sceneShotCamera.enabled = true;
+        Camera.enabled = true;
+        sceneShotCamera.enabled = true;
 		sceneShotCamera2.enabled = true;
 		sceneShotCamera3.enabled = true;
 
 		List<Camera> cameraList = new List<Camera> ();
-		cameraList.Add (sceneShotCamera);
+
+        cameraList.Add (Camera);
+        cameraList.Add (sceneShotCamera);
 		cameraList.Add (sceneShotCamera2);
 		cameraList.Add (sceneShotCamera3);
 
@@ -141,19 +145,20 @@ public class ScreenShot : MonoBehaviour
 			sceneImages.Add (texture);
 			Debug.Log (i);
 		}
-		sceneShotCamera.enabled = false;
+        Camera.enabled = false;
+        sceneShotCamera.enabled = false;
 		sceneShotCamera2.enabled = false;
 		sceneShotCamera3.enabled = false;
 
 
-		for (int i = 0; i < transformRefs.Count; i++) {
+		//for (int i = 0; i < transformRefs.Count; i++) {
 
-			byte [] bytes = sceneImages [i].EncodeToPNG ();
-			string filename = Application.dataPath + string.Format ("ScreenShot/Screenshot{0}.png", i);
-			System.IO.File.WriteAllBytes (filename, bytes);
-			Debug.Log (string.Format ("截屏了一张照片: {0}", filename));
+		//	byte [] bytes = sceneImages [i].EncodeToPNG ();
+		//	string filename = Application.dataPath + string.Format ("ScreenShot/Screenshot{0}.png", i);
+		//	System.IO.File.WriteAllBytes (filename, bytes);
+		//	Debug.Log (string.Format ("截屏了一张照片: {0}", filename));
 
-		}
+		//}
 
 
 

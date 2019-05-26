@@ -248,7 +248,7 @@ namespace LightingExperiment
             tableData.Add("CCR", CCRInputField.text);
             tableData.Add("RCC", RCCInputField.text);
             //侧窗数据
-            tableData.Add("sideWindowsLocation", sideWindowsLocationInputField.text);
+            //tableData.Add("sideWindowsLocation", sideWindowsLocationInputField.text);
             tableData.Add("sideWindowsNumber", sideWindowsNumberInputField.text);
             tableData.Add("sideWindowsDistance", sideWindowsDistanceInputField.text);
             tableData.Add("sideWindowsAera", sideWindowsAeraInputField.text);
